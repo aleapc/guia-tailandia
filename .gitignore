@@ -1,0 +1,14 @@
+node_modules
+/build
+/.svelte-kit
+/package-lock.json
+*.log
+.DS_Store
+.env
+
+# Scripts que contêm a senha do seed cifrado — NUNCA publicar (repo é público).
+scripts/make-seed.mjs
+scripts/verify-seed.mjs
+scripts/import-couple.mjs
+scripts/.seed-pw
+scripts/.couple-photo.b64

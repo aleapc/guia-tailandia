@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Esconde a barra de rolagem dos carrosséis horizontais (mantendo o scroll). */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Rolagem suave e respeito às áreas seguras (notch) em telas mobile. */
+html {
+  -webkit-text-size-adjust: 100%;
+}

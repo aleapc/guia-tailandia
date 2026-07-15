@@ -1,0 +1,2105 @@
+// AUTO-GERADO por scripts/gen-thai.mjs — não editar à mão.
+// 93 locais (pesquisa por região) + pratos típicos. Fonte: scratchpad/thai-data + thailand_content.json
+import type { Attraction, LinkRef } from './content';
+
+export const extraAttractions: Attraction[] = [
+  {
+    "id": "grande_palacio_wat_phra_kaew",
+    "categoryId": "bangkok",
+    "name": "Grande Palácio e Wat Phra Kaew",
+    "tagline": "O coração dourado de Bangkok",
+    "description": "O complexo real mais imponente da Tailândia, lar do Buda de Esmeralda (Wat Phra Kaew), o templo mais sagrado do país. Telhados dourados, mosaicos de espelho e guardiões gigantes num só lugar. É o cartão-postal absoluto e o passeio mais concorrido da cidade.",
+    "whatToDo": [
+      "Comece cedo (8h30) para fugir do calor e das multidões",
+      "Visite o Buda de Esmeralda, esculpido num único bloco de jade",
+      "Admire o Ramakien, o mural pintado que dá a volta no claustro",
+      "Reserve pelo menos 2h para o complexo inteiro"
+    ],
+    "kingTip": "O dress code é rígido: ombros e joelhos cobertos, nada de regata ou short curto. Levem calça leve ou sarongue (há aluguel na entrada, mas a fila é longa).",
+    "whereToEat": "Saia pela lateral rumo a Tha Tien / Wat Pho para almoçar; o entorno do palácio é caro e turístico.",
+    "lat": 13.75,
+    "lng": 100.4913,
+    "durationLabel": "2-3h",
+    "fit": "ANY",
+    "hours": {
+      "note": "todo dia 8h30-15h30 (venda de ingressos até 15h30); ~500 THB"
+    },
+    "mapQuery": "Grand Palace Bangkok",
+    "history": "Residência oficial dos reis do Sião desde 1782, quando Rama I fundou a dinastia Chakri e transferiu a capital para Bangkok."
+  },
+  {
+    "id": "wat_pho",
+    "categoryId": "bangkok",
+    "name": "Wat Pho (Buda Reclinado)",
+    "tagline": "46 metros de ouro deitados",
+    "description": "Um dos templos mais antigos e amados de Bangkok, famoso pelo colossal Buda Reclinado folheado a ouro, com solas dos pés incrustadas de madrepérola. É também o berço da massagem tailandesa. Menos lotado e mais tranquilo que o Grande Palácio, bem ao lado.",
+    "whatToDo": [
+      "Caminhe ao redor dos 46m do Buda Reclinado",
+      "Solte 108 moedas nas tigelas de bronze para dar sorte",
+      "Perca-se entre os 91 chedis (torres) coloridos",
+      "Emende com uma massagem na escola do templo"
+    ],
+    "kingTip": "Combine com o Grande Palácio no mesmo período da manhã (ficam a 10 min a pé) e deixe o Wat Arun para o fim da tarde, atravessando o rio de balsa.",
+    "whereToEat": "Barracas de pad thai e água de coco na Soi Tha Tien, entre o templo e o cais.",
+    "lat": 13.7465,
+    "lng": 100.4927,
+    "durationLabel": "1-1h30",
+    "fit": "ANY",
+    "hours": {
+      "note": "todo dia 8h30-18h30; ~200 THB"
+    },
+    "mapQuery": "Wat Pho Bangkok",
+    "history": "Anterior à fundação de Bangkok como capital, é considerado a primeira universidade pública da Tailândia, com inscrições sobre medicina reconhecidas pela UNESCO."
+  },
+  {
+    "id": "wat_arun",
+    "categoryId": "bangkok",
+    "name": "Wat Arun (Templo do Amanhecer)",
+    "tagline": "A torre de porcelana à beira do rio",
+    "description": "O templo mais fotogênico de Bangkok, com sua torre central (prang) de 70m revestida de cacos de porcelana chinesa que cintilam ao sol. Fica na margem oeste do Chao Phraya, e a travessia de balsa por poucos baht já é parte da experiência.",
+    "whatToDo": [
+      "Suba os degraus íngremes do prang central para a vista do rio",
+      "Repare nos detalhes de porcelana e conchas de perto",
+      "Volte no fim da tarde: fica lindo iluminado ao anoitecer",
+      "Fotografe da margem oposta (Tha Tien) ao pôr do sol"
+    ],
+    "kingTip": "O melhor clique é do outro lado do rio, dos rooftops e cafés de Tha Tien, com o templo dourado pelo sol poente ao fundo.",
+    "whereToEat": "Cafés com vista em Tha Tien, como The Deck ou Eagle Nest, do lado leste do rio.",
+    "lat": 13.7437,
+    "lng": 100.4889,
+    "durationLabel": "1h",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "todo dia 8h-18h; ~100 THB"
+    },
+    "mapQuery": "Wat Arun Bangkok",
+    "history": "Batizado em homenagem a Aruna, o deus indiano do amanhecer; ganhou sua forma atual sob os reis Rama II e III no início do século XIX."
+  },
+  {
+    "id": "wat_saket_golden_mount",
+    "categoryId": "bangkok",
+    "name": "Wat Saket (Montanha Dourada)",
+    "tagline": "318 degraus até o chedi dourado",
+    "description": "Um templo sobre uma colina artificial, coroado por um chedi dourado que oferece uma das melhores vistas panorâmicas da cidade antiga. A subida em espiral, cercada de sinos e árvores, é meditativa e recompensadora, longe das multidões dos templos do rio.",
+    "whatToDo": [
+      "Suba os 300+ degraus tocando os sinos no caminho",
+      "Dê a volta no chedi dourado para vista 360° de Bangkok",
+      "Vá no fim da tarde para pegar a luz dourada",
+      "Explore o templo na base, mais silencioso"
+    ],
+    "kingTip": "Se pegarem em novembro perto do fim do mês, a feira do templo (Wat Saket Temple Fair, época de Loy Krathong) enche a colina de luzes e comida.",
+    "lat": 13.7538,
+    "lng": 100.5069,
+    "durationLabel": "1h",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "todo dia ~7h30-19h; ~100 THB"
+    },
+    "mapQuery": "Wat Saket Golden Mount Bangkok",
+    "history": "A colina foi erguida no século XIX sobre um chedi que desabou; por décadas foi o ponto mais alto de Bangkok e serviu de crematório da cidade."
+  },
+  {
+    "id": "passeio_barco_khlongs",
+    "categoryId": "bangkok",
+    "name": "Passeio de barco pelos khlongs (Thonburi)",
+    "tagline": "A Veneza do Oriente de long-tail",
+    "description": "Um passeio de barco de cauda longa pelos canais (khlongs) do lado Thonburi revela a Bangkok que resistiu ao tempo: casas de madeira sobre palafitas, templos escondidos e a vida ribeirinha. Combina bem com um trecho pelo próprio Chao Phraya, passando por Wat Arun e pelo Grande Palácio vistos da água.",
+    "whatToDo": [
+      "Contrate um long-tail nos cais Tha Chang ou Tha Tien",
+      "Peça para incluir Wat Arun e o mercado flutuante de Taling Chan (fins de semana)",
+      "Negocie o preço e a duração antes de embarcar",
+      "Leve água e chapéu; o sol no rio é forte"
+    ],
+    "kingTip": "Negociem sempre antes de subir no barco e confirmem o roteiro; para uma versão baratíssima, o barco-ônibus público do Khlong Saen Saep também corta a cidade por dentro.",
+    "lat": 13.7515,
+    "lng": 100.4885,
+    "durationLabel": "1h30-2h",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "melhor de manhã ou fim de tarde; barcos privados sob negociação"
+    },
+    "mapQuery": "Tha Chang Pier Bangkok",
+    "history": "Antes das ruas, Bangkok se movia pela água; os khlongs de Thonburi guardam o traçado da cidade anfíbia do século XVIII."
+  },
+  {
+    "id": "chinatown_yaowarat",
+    "categoryId": "bangkok",
+    "name": "Chinatown (Yaowarat)",
+    "tagline": "Neon, ouro e caldeirões a céu aberto",
+    "description": "Um dos maiores bairros chineses do mundo, um labirinto de lojas de ouro, ervas medicinais, templos e becos. De dia é comércio frenético; à noite, a Yaowarat Road se transforma na maior rua de street food da cidade, com fumaça, neon e mesas na calçada. Vibrante e inesquecível.",
+    "whatToDo": [
+      "Ande a pé pela Yaowarat Road depois das 18h",
+      "Explore os becos de Sampeng Lane e Soi Nana (bares escondidos)",
+      "Visite o Wat Traimit e seu Buda de ouro maciço de 5,5 toneladas",
+      "Prove tudo: dim sum, frutos do mar, sobremesas chinesas"
+    ],
+    "kingTip": "Soi Nana (a de Chinatown, não a de Sukhumvit) virou reduto de bares de coquetel e casas descoladas: ótimo para emendar drinks depois do jantar de rua.",
+    "whereToEat": "Barracas da Yaowarat à noite; para sentar, T&K Seafood ou Nai Ek Roll Noodle (Michelin Bib Gourmand).",
+    "lat": 13.7405,
+    "lng": 100.5095,
+    "durationLabel": "meio período",
+    "fit": "ANY",
+    "hours": {
+      "note": "street food ferve após 18h; fechado às segundas em muitas barracas"
+    },
+    "mapQuery": "Yaowarat Road Chinatown Bangkok",
+    "history": "Fundada em 1782 quando a comunidade chinesa foi realocada para dar lugar ao Grande Palácio; é o coração comercial chinês de Bangkok há mais de dois séculos."
+  },
+  {
+    "id": "jim_thompson_house",
+    "categoryId": "bangkok",
+    "name": "Casa de Jim Thompson",
+    "tagline": "Seda, mistério e um oásis de teca",
+    "description": "O refúgio verde de um americano que ressuscitou a indústria da seda tailandesa e depois desapareceu misteriosamente na Malásia em 1967. Seis casas tradicionais de teca reunidas num jardim tropical, cheias de arte asiática. Visita guiada, fresca e fascinante, no meio do caos de Bangkok.",
+    "whatToDo": [
+      "Faça o tour guiado pela casa (incluso no ingresso)",
+      "Passeie pelo jardim tropical e pelo khlong ao lado",
+      "Veja a coleção de arte e budas de séculos",
+      "Passe na loja de sedas e no café ao fim"
+    ],
+    "kingTip": "Os ingressos só são vendidos na bilheteria física (não há venda online), então cheguem direto ao local; fica a poucos passos do BTS National Stadium.",
+    "whereToEat": "O restaurante e café do próprio complexo servem pratos tailandeses num ambiente ajardinado.",
+    "lat": 13.7492,
+    "lng": 100.5285,
+    "durationLabel": "1-1h30",
+    "fit": "INDOOR",
+    "hours": {
+      "note": "todo dia 10h-17h (último tour 17h); ~250 THB"
+    },
+    "mapQuery": "Jim Thompson House Museum Bangkok",
+    "history": "Jim Thompson revitalizou a seda tailandesa no pós-guerra e montou aqui sua coleção; seu sumiço sem explicação em 1967 nunca foi resolvido."
+  },
+  {
+    "id": "lumpini_park",
+    "categoryId": "bangkok",
+    "name": "Parque Lumpini",
+    "tagline": "O pulmão verde no meio da selva urbana",
+    "description": "O maior parque do centro de Bangkok, um respiro de lagos, árvores e trilhas cercado por arranha-céus. Ao amanhecer e ao entardecer vira palco de tai chi, corredores, aeróbica coletiva e famílias. Bônus surreal: lagartos-monitores gigantes perambulam pelos gramados.",
+    "whatToDo": [
+      "Caminhe ou alugue um pedalinho no lago",
+      "Vá ao entardecer para ver a aeróbica pública e o tai chi",
+      "Procure (à distância) os lagartos-monitores",
+      "Faça um piquenique com mango sticky rice comprado antes"
+    ],
+    "kingTip": "Fim de tarde é o auge: a temperatura cai, as luzes dos prédios acendem atrás das palmeiras e o clima fica ótimo para fotos de casal.",
+    "lat": 13.7305,
+    "lng": 100.5418,
+    "durationLabel": "1-2h",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "todo dia ~4h30-21h; entrada gratuita"
+    },
+    "mapQuery": "Lumpini Park Bangkok",
+    "history": "Criado nos anos 1920 pelo rei Rama VI em terras reais doadas à cidade, leva o nome do local de nascimento do Buda no Nepal."
+  },
+  {
+    "id": "asiatique_por_do_sol",
+    "categoryId": "bangkok",
+    "name": "Asiatique e o pôr do sol no rio",
+    "tagline": "Roda-gigante, brisa do rio e luz dourada",
+    "description": "Um mercado-noturno à beira do Chao Phraya que ocupa antigos armazéns portuários, com roda-gigante, restaurantes ribeirinhos e lojas. A graça é chegar de barco no fim da tarde, ver o sol se pôr sobre o rio e jantar com a brisa. Turístico, mas cênico e romântico.",
+    "whatToDo": [
+      "Pegue o shuttle boat gratuito no cais Sathorn (BTS Saphan Taksin)",
+      "Chegue antes do pôr do sol para a luz dourada no rio",
+      "Suba na roda-gigante Asiatique Sky ao anoitecer",
+      "Jante à beira d'água e curta o cabaré ou um bar"
+    ],
+    "kingTip": "O barco-shuttle gratuito sai do cais Sathorn no fim da tarde; cheguem cedo porque enche na hora do pôr do sol.",
+    "whereToEat": "Dezenas de restaurantes ribeirinhos no complexo; peça uma mesa voltada para o rio.",
+    "lat": 13.7047,
+    "lng": 100.5095,
+    "durationLabel": "uma noite",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "todo dia ~16h-24h"
+    },
+    "mapQuery": "Asiatique The Riverfront Bangkok",
+    "history": "Ocupa os armazéns da antiga Companhia da Indochina Oriental, do tempo do rei Rama V, quando o Chao Phraya era a porta comercial do Sião."
+  },
+  {
+    "id": "chatuchak_weekend_market",
+    "categoryId": "mercados",
+    "name": "Mercado de Fim de Semana de Chatuchak",
+    "tagline": "15 mil barracas, um dia inteiro",
+    "description": "O maior mercado de fim de semana do mundo: mais de 15 mil barracas divididas em 27 setores, de roupa vintage a plantas, arte, antiguidades, comida e bichos. Um universo caótico e viciante onde é impossível não se perder e não sair de mãos cheias.",
+    "whatToDo": [
+      "Vá cedo (antes das 11h) para escapar do calor sufocante",
+      "Pegue o mapa por setores e marque o que quer ver",
+      "Explore o setor 7 (arte) e as roupas vintage",
+      "Faça pausas nas barracas de coco gelado e comida"
+    ],
+    "kingTip": "Baixem o mapa dos setores antes: o labirinto é real e o celular perde sinal na multidão. Ponto de encontro clássico é a torre do relógio no centro.",
+    "whereToEat": "Barracas de comida por todo o mercado; o setor 26 concentra pratos tailandeses e a lendária sorveteria de coco.",
+    "lat": 13.7999,
+    "lng": 100.5502,
+    "durationLabel": "meio dia",
+    "fit": "ANY",
+    "hours": {
+      "note": "sáb e dom 9h-18h (sex à noite atacado; qua/qui só plantas)"
+    },
+    "mapQuery": "Chatuchak Weekend Market Bangkok",
+    "history": "Começou nos anos 1940 como mercado ambulante autorizado por Rama VIII e migrou para o parque de Chatuchak em 1982."
+  },
+  {
+    "id": "mercado_flutuante_amphawa",
+    "categoryId": "mercados",
+    "name": "Mercado Flutuante de Amphawa",
+    "tagline": "Barcos, frutos do mar e vaga-lumes",
+    "description": "Nossa escolha entre os mercados flutuantes: mais autêntico e menos armadilha turística que Damnoen Saduak, Amphawa é frequentado sobretudo por tailandeses. Funciona à tarde/noite de sexta a domingo, com barcos grelhando frutos do mar no canal e passeios noturnos para ver vaga-lumes.",
+    "whatToDo": [
+      "Prove frutos do mar grelhados direto dos barcos",
+      "Faça o passeio de barco ao anoitecer para ver os vaga-lumes",
+      "Ande pelas casas de madeira à beira do canal",
+      "Vá no fim da tarde, quando o mercado ganha vida"
+    ],
+    "kingTip": "Só funciona de sexta a domingo e brilha mesmo ao entardecer: programem para chegar no fim da tarde e emendar o passeio dos vaga-lumes. Fica a ~1h30-2h de Bangkok.",
+    "whereToEat": "Os próprios barcos-cozinha do canal: camarão, lula e mexilhões grelhados na hora.",
+    "lat": 13.4258,
+    "lng": 99.9558,
+    "durationLabel": "meio dia",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "sex, sáb e dom ~12h-20h (vaga-lumes ao anoitecer)"
+    },
+    "mapQuery": "Amphawa Floating Market",
+    "history": "Vila ribeirinha histórica na província de Samut Songkhram, ligada ao rei Rama II, que nasceu na região."
+  },
+  {
+    "id": "talad_rot_fai_srinakarin",
+    "categoryId": "mercados",
+    "name": "Talad Rot Fai Srinakarin (Mercado do Trem)",
+    "tagline": "Vintage, retrô e carros clássicos",
+    "description": "O mercado noturno vintage original de Bangkok, um paraíso retrô de móveis antigos, roupas de brechó, carros e motos clássicas, bares temáticos e uma praça de alimentação enorme. Menos turístico e mais 'de local' que os mercados do centro, com alma dos anos 60-80.",
+    "whatToDo": [
+      "Garimpe antiguidades, discos e roupa vintage",
+      "Veja os carros e motos clássicos expostos",
+      "Coma na praça de comida e beba nos bares retrô",
+      "Suba num prédio-garagem vizinho para foto aérea das barracas"
+    ],
+    "kingTip": "Fica longe do centro (perto do Seacon Square, zona leste): reservem um Grab para ir e voltar. Não confundir com o antigo Rot Fai Ratchada, que virou outros mercados.",
+    "whereToEat": "Grande zona de street food no fundo do mercado, com frutos do mar e petiscos tailandeses.",
+    "lat": 13.6905,
+    "lng": 100.647,
+    "durationLabel": "uma noite",
+    "fit": "ANY",
+    "hours": {
+      "note": "qui a dom ~17h-1h"
+    },
+    "mapQuery": "Talad Rot Fai Srinakarin",
+    "history": "Nasceu perto dos antigos pátios ferroviários (rot fai = trem), de onde vem o nome e a estética vintage."
+  },
+  {
+    "id": "pak_khlong_talat_flores",
+    "categoryId": "mercados",
+    "name": "Pak Khlong Talat (Mercado de Flores)",
+    "tagline": "Um oceano de flores 24 horas",
+    "description": "O maior mercado de flores de Bangkok, um formigueiro de orquídeas, jasmim, rosas e guirlandas coloridas que nunca dorme. À noite chegam os caminhões carregados e o perfume toma conta das calçadas. Fica coladinho em Sampeng e no mercado de flores, ótimo para caminhar sem gastar.",
+    "whatToDo": [
+      "Vá tarde da noite ou de madrugada, quando chega a mercadoria fresca",
+      "Fotografe as montanhas de pétalas e as guirlandas de jasmim",
+      "Emende com o mercado têxtil de Sampeng Lane ao lado",
+      "Coma nas barracas noturnas do entorno"
+    ],
+    "kingTip": "O auge é entre 2h e 4h da manhã, mas mesmo à noite normal (após 19h) já é lindo. Combina perfeitamente depois de um jantar em Chinatown, que fica pertinho.",
+    "whereToEat": "Barracas de comida noturna nas ruas ao redor e a curta distância a pé da Yaowarat.",
+    "lat": 13.7415,
+    "lng": 100.4972,
+    "durationLabel": "1h",
+    "fit": "ANY",
+    "hours": {
+      "note": "todo dia 24h; mais movimentado à noite/madrugada"
+    },
+    "mapQuery": "Pak Khlong Talat Flower Market Bangkok",
+    "history": "Funciona como mercado à beira do rio desde o reinado de Rama I; virou o grande atacado de flores da cidade no século XX."
+  },
+  {
+    "id": "iconsiam",
+    "categoryId": "mercados",
+    "name": "ICONSIAM",
+    "tagline": "O shopping-espetáculo à beira do rio",
+    "description": "O mall mais deslumbrante de Bangkok, um monumento ao luxo e à tailandidade na margem do Chao Phraya. Lá dentro, o SookSiam recria um mercado flutuante coberto com comida e artesanato das 77 províncias. À noite, a fachada vira palco de fontes dançantes sobre o rio.",
+    "whatToDo": [
+      "Explore o SookSiam, o mercado flutuante indoor no térreo",
+      "Assista ao show de fontes ICONIC Multimedia sobre o rio (à noite)",
+      "Suba aos andares de gastronomia e mirantes do rio",
+      "Chegue de barco pelo shuttle gratuito do cais Sathorn"
+    ],
+    "kingTip": "Refúgio perfeito num dia de chuva ou calor extremo: é climatizado, tem comida de rua 'de luxe' no SookSiam e o show de fontes noturno é de graça.",
+    "whereToEat": "SookSiam no térreo para street food regional; andares superiores com restaurantes e vista para o rio.",
+    "lat": 13.7266,
+    "lng": 100.51,
+    "durationLabel": "meio período",
+    "fit": "INDOOR",
+    "hours": {
+      "note": "todo dia 10h-22h"
+    },
+    "mapQuery": "ICONSIAM Bangkok",
+    "history": "Inaugurado em 2018, é um dos maiores empreendimentos de varejo do Sudeste Asiático e reabriu a margem Thonburi do rio ao turismo."
+  },
+  {
+    "id": "street_food_yaowarat",
+    "categoryId": "comida",
+    "name": "Street food de Yaowarat",
+    "tagline": "A rua que vira cozinha ao anoitecer",
+    "description": "A experiência gastronômica definitiva de Bangkok. Depois das 18h, a Yaowarat Road se enche de woks flamejantes, grelhas de frutos do mar e mesas de plástico na calçada. É barato, teatral e delicioso: você come de pé, apontando para o que cheira bem, entre neon e fumaça.",
+    "whatToDo": [
+      "Frutos do mar na brasa do T&K Seafood (camisas verdes)",
+      "Guay jub (macarrão enrolado no caldo apimentado) do Nai Ek",
+      "Sobremesas: mango sticky rice, castanhas quentes, pão vapor",
+      "Ostras fritas (hoy tod) e sopa de barbatana falsa nas barracas"
+    ],
+    "kingTip": "Regra de ouro do street food: sente onde os tailandeses estão fazendo fila e onde há rotatividade alta — comida fresca e segura. Levem dinheiro vivo, quase ninguém aceita cartão.",
+    "whereToEat": "A própria Yaowarat Road e os becos vizinhos (Soi Texas / Padungdao para frutos do mar).",
+    "lat": 13.7402,
+    "lng": 100.511,
+    "durationLabel": "uma noite",
+    "fit": "ANY",
+    "hours": {
+      "note": "barracas fervem após 18h; muitas fecham segundas"
+    },
+    "mapQuery": "Yaowarat street food Bangkok",
+    "history": "A tradição de comer na rua em Chinatown remonta às gerações de imigrantes chineses que fizeram da Yaowarat o centro culinário de Bangkok."
+  },
+  {
+    "id": "jay_fai",
+    "categoryId": "comida",
+    "name": "Jay Fai (Raan Jay Fai)",
+    "tagline": "A cozinheira dos óculos e da estrela Michelin",
+    "description": "A barraca de rua mais famosa do mundo: a chef Supinya 'Jay Fai', de óculos de esqui e touca de lã, cozinha no wok à brasa há décadas e ganhou uma estrela Michelin sem sair da calçada. Seu omelete de caranguejo (crab omelette) é lendário — e a espera e o preço, também.",
+    "whatToDo": [
+      "Peça o crab omelette (khai jiao poo), o prato-símbolo",
+      "Prove o drunken noodles com frutos do mar (pad kee mao)",
+      "Encare a fila ou vá pelo sistema de reserva quando disponível",
+      "Assista à chef cozinhando na rua, é um espetáculo à parte"
+    ],
+    "kingTip": "Abre só de quarta a sábado, a partir das 9h, e forma fila enorme; os pratos são caros para street food (o omelete de caranguejo passa de 1.000 THB). Cheguem cedo ou verifiquem reserva.",
+    "whereToEat": "É o destino em si; fica na esquina de Samran Rat, perto do Golden Mount.",
+    "lat": 13.753,
+    "lng": 100.5045,
+    "durationLabel": "1-2h (com fila)",
+    "fit": "ANY",
+    "hours": {
+      "note": "qua a sáb a partir das 9h; fecha dom-ter"
+    },
+    "mapQuery": "Jay Fai Bangkok",
+    "history": "Jay Fai recebeu a estrela Michelin no guia inaugural de Bangkok (2018), sendo a única barraca de rua premiada, e a mantém desde então."
+  },
+  {
+    "id": "mae_varee_mango",
+    "categoryId": "comida",
+    "name": "Mae Varee (Mango Sticky Rice)",
+    "tagline": "O melhor arroz doce com manga da cidade",
+    "description": "A fruteira mais famosa de Bangkok para o clássico khao niao mamuang: manga nam dok mai madura, arroz glutinoso na medida certa e leite de coco levemente salgado. É operação grab-and-go, sem mesas, com pilhas de mangas douradas na fachada em Thonglor.",
+    "whatToDo": [
+      "Peça o mango sticky rice com opção de arroz branco ou preto",
+      "Leve para comer no parque Lumpini ou no hotel",
+      "Compre mangas extras para o café da manhã",
+      "Chegue cedo se quiser as mangas mais maduras (esgotam)"
+    ],
+    "kingTip": "Fica à saída do BTS Thong Lo (saída 3), aberto quase o dia todo (6h-22h). Como não há onde sentar, façam dela uma parada estratégica antes de um parque ou passeio.",
+    "whereToEat": "É take-away; combine com um passeio por Thonglor, bairro descolado cheio de cafés e bares.",
+    "lat": 13.7245,
+    "lng": 100.579,
+    "durationLabel": "20 min",
+    "fit": "ANY",
+    "hours": {
+      "note": "todo dia ~6h-22h"
+    },
+    "mapQuery": "Mae Varee Fruit Shop Thonglor Bangkok"
+  },
+  {
+    "id": "boat_noodles_victory",
+    "categoryId": "comida",
+    "name": "Boat Noodles do Victory Monument",
+    "tagline": "Tigelinhas de macarrão que empilham",
+    "description": "O beco dos boat noodles (kuay teow reua) à beira de um canal no Victory Monument: sopa de macarrão intensa, servida em tigelinhas minúsculas por ~15-20 THB cada. A brincadeira é ir empilhando as tigelas vazias na mesa e ver quantas você aguenta. Barato, saboroso e muito local.",
+    "whatToDo": [
+      "Peça várias tigelinhas e empilhe para marcar o placar",
+      "Prove a versão com sangue de porco no caldo (a original)",
+      "Adicione bolinhos crocantes e torresmo (kaeb moo)",
+      "Experimente as casas à beira do canal, mais atmosféricas"
+    ],
+    "kingTip": "As tigelas são de propósito minúsculas: peça 3-4 de cara e vá adicionando. Um 'record' local passa fácil de 10 tigelas por pessoa e ainda sai baratíssimo.",
+    "whereToEat": "As casas do beco (Rua Thong e Sud Yod são as mais famosas), junto ao canal Samsen.",
+    "lat": 13.7657,
+    "lng": 100.5384,
+    "durationLabel": "45 min-1h",
+    "fit": "ANY",
+    "hours": {
+      "note": "todo dia ~9h-21h"
+    },
+    "mapQuery": "Boat Noodle Alley Victory Monument Bangkok",
+    "history": "O nome vem de quando o prato era servido de barcos nos canais; as tigelas ficaram pequenas para não derramar o caldo com o balanço da água."
+  },
+  {
+    "id": "above_eleven_rooftop",
+    "categoryId": "comida",
+    "name": "Above Eleven (rooftop nikkei)",
+    "tagline": "Jantar peruano-japonês nas alturas",
+    "description": "Um rooftop descontraído em Sukhumvit 11 com cozinha nikkei (fusão peruano-japonesa) e um jardim suspenso com vista para os arranha-céus. Menos formal e mais festivo que os rooftops de gala, é ótimo para um jantar animado de casal com drinks e cidade iluminada ao fundo.",
+    "whatToDo": [
+      "Reserve uma mesa perto da borda para a vista",
+      "Peça ceviches, anticuchos e pratos nikkei para dividir",
+      "Chegue no fim da tarde para o pôr do sol e fique para os drinks",
+      "Depois desça e explore a badalada Sukhumvit 11"
+    ],
+    "kingTip": "Rooftop de comida com clima descontraído e sem dress code pesado — bom meio-termo para quem quer altura e vista sem a formalidade do Sky Bar.",
+    "whereToEat": "É o próprio destino; no topo do Fraser Suites, Sukhumvit Soi 11.",
+    "lat": 13.743,
+    "lng": 100.559,
+    "durationLabel": "uma noite",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "noites, geralmente a partir das 18h; reserva recomendada"
+    },
+    "mapQuery": "Above Eleven Bangkok"
+  },
+  {
+    "id": "wat_pho_massage_school",
+    "categoryId": "bemestar",
+    "name": "Escola de Massagem do Wat Pho",
+    "tagline": "Massagem tailandesa na fonte original",
+    "description": "A massagem tailandesa nasceu (oficialmente) aqui. Dentro do complexo do Wat Pho funciona a escola-mãe da técnica, onde massagistas certificados aplicam a autêntica nuad thai por preço justo. Emendar o templo com uma massagem é o combo perfeito de cultura e relaxamento.",
+    "whatToDo": [
+      "Faça a massagem tailandesa tradicional de 60 min",
+      "Experimente a massagem de pés depois de tanto caminhar",
+      "Considere um curso rápido introdutório, se tiver tempo",
+      "Reserve na chegada e explore o templo enquanto espera"
+    ],
+    "kingTip": "Os preços são tabelados e honestos (massagem tailandesa de 60 min por volta de 520 THB). É dentro do templo, então dá para emendar logo depois de ver o Buda Reclinado.",
+    "whereToEat": "Barracas e cafés de Tha Tien, na saída do templo em direção ao rio.",
+    "lat": 13.746,
+    "lng": 100.4935,
+    "durationLabel": "1-2h",
+    "fit": "INDOOR",
+    "hours": {
+      "note": "todo dia ~8h-19h30"
+    },
+    "mapQuery": "Wat Pho Thai Traditional Massage School Bangkok",
+    "history": "Escola fundada em 1955, herdeira de um saber de massagem inscrito nas paredes do templo desde o século XIX e reconhecido pela UNESCO."
+  },
+  {
+    "id": "health_land_spa",
+    "categoryId": "bemestar",
+    "name": "Health Land Spa & Massage",
+    "tagline": "Spa de verdade a preço de pechincha",
+    "description": "Uma rede de spas queridinha por locais e viajantes pelo custo-benefício imbatível: ambiente limpo, profissional e calmo, com massagem tailandesa de 2 horas por uma fração do que se paga em spa de hotel. Perfeito para recarregar depois de um dia de templos e mercados.",
+    "whatToDo": [
+      "Reserve a massagem tailandesa de 2h (o carro-chefe)",
+      "Experimente a aromaterapia com óleos ou massagem de pés",
+      "Agende com antecedência: as unidades enchem",
+      "Escolha a filial mais perto do seu hotel (Asoke, Sathorn, Ekkamai)"
+    ],
+    "kingTip": "Reservem por telefone/app com um dia de antecedência: é tão popular entre os tailandeses que aparecer sem hora marcada costuma dar espera.",
+    "whereToEat": "Cada filial fica em bairro movimentado com restaurantes ao redor (Asoke tem o Terminal 21 pertinho).",
+    "lat": 13.737,
+    "lng": 100.5615,
+    "durationLabel": "2h",
+    "fit": "INDOOR",
+    "hours": {
+      "note": "todo dia ~9h-24h"
+    },
+    "mapQuery": "Health Land Spa Asoke Bangkok"
+  },
+  {
+    "id": "sky_bar_lebua",
+    "categoryId": "noite",
+    "name": "Sky Bar (Lebua State Tower)",
+    "tagline": "O rooftop de 'Se Beber, Não Case'",
+    "description": "O rooftop mais icônico de Bangkok, no 63º andar da State Tower, imortalizado em 'Se Beber, Não Case 2'. Um bar dourado projetado sobre o abismo, com vista de 360° do rio Chao Phraya e da cidade acesa lá embaixo. Drinks caríssimos, mas a experiência e o cenário são inesquecíveis.",
+    "whatToDo": [
+      "Suba ao pôr do sol para pegar o céu ainda claro e depois a cidade acesa",
+      "Peça o coquetel 'Hangovertini', criado para o filme",
+      "Fotografe a cúpula dourada com o rio ao fundo",
+      "Depois desça ao Sirocco para jantar, se quiser continuar"
+    ],
+    "kingTip": "Dress code smart casual é levado a sério: nada de regata, bermuda ou chinelo para eles. Cheguem uns 40 min antes do pôr do sol para pegar mesa boa antes de lotar.",
+    "whereToEat": "O restaurante Sirocco, colado ao bar no mesmo terraço, para um jantar sofisticado com vista.",
+    "lat": 13.7205,
+    "lng": 100.5165,
+    "durationLabel": "uma noite",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "todo dia ~17h-24h30 (última bebida 0h15)"
+    },
+    "mapQuery": "Sky Bar Lebua State Tower Bangkok",
+    "history": "Aberto nos anos 2000 no topo da State Tower, ganhou fama mundial ao aparecer em 'The Hangover Part II' (2011)."
+  },
+  {
+    "id": "khao_san_road",
+    "categoryId": "noite",
+    "name": "Khao San Road",
+    "tagline": "A rua que nunca dorme dos mochileiros",
+    "description": "A lendária rua mochileira de Bangkok: uma explosão de bares, música alta, barracas de pad thai, tatuagem henna, escorpiões fritos e gente do mundo inteiro. Caótica, kitsch e divertidíssima, é aquele tipo de lugar que você precisa ver pelo menos uma vez — de preferência com bom humor.",
+    "whatToDo": [
+      "Beba um balde de coquetel (os famosos 'buckets')",
+      "Prove (ou fotografe) os insetos fritos das barracas",
+      "Ande pela Soi Rambuttri ao lado, mais tranquila e charmosa",
+      "Curta a música e o vaivém sem pressa"
+    ],
+    "kingTip": "A Soi Rambuttri, paralela e a poucos passos, é a versão mais relax da Khao San: mesas ao ar livre sob as árvores, bom para um drink antes ou depois do caos.",
+    "whereToEat": "Barracas de pad thai e mango sticky rice na própria rua; bares com petiscos na Rambuttri.",
+    "lat": 13.759,
+    "lng": 100.4977,
+    "durationLabel": "uma noite",
+    "fit": "ANY",
+    "hours": {
+      "note": "vida noturna; ferve após 20h até tarde"
+    },
+    "mapQuery": "Khao San Road Bangkok",
+    "history": "Antiga rua de comércio de arroz (khao san = arroz descascado), virou meca mochileira nos anos 1980 e ganhou fama no livro/filme 'A Praia'."
+  },
+  {
+    "id": "silom_soi_4",
+    "categoryId": "noite",
+    "name": "Silom Soi 4 (cena LGBTQ+)",
+    "tagline": "O coração gay de Bangkok",
+    "description": "O beco histórico da vida noturna LGBTQ+ de Bangkok, cheio de bares de calçada acolhedores onde a noite começa. Ambiente descontraído e amigável, com clássicos como The Balcony e Stranger Bar. Atravessando para a Soi 2 fica a pista de dança DJ Station, para quem quer esticar a festa.",
+    "whatToDo": [
+      "Comece com drinks nas mesas de calçada do The Balcony",
+      "Veja um show no Stranger Bar (drag e performances)",
+      "Atravesse para a Silom Soi 2 e o clube DJ Station depois da meia-noite",
+      "Vá entre 21h e meia-noite, quando a soi está no auge"
+    ],
+    "kingTip": "A cena esquenta mesmo entre 21h e meia-noite; depois disso a galera cruza a rua rumo à Soi 2 e ao DJ Station para dançar. Bangkok é super acolhedora para casais gays.",
+    "whereToEat": "Barracas e restaurantes de Silom antes de sair; a Convent Road ao lado tem street food à noite.",
+    "lat": 13.7256,
+    "lng": 100.534,
+    "durationLabel": "uma noite",
+    "fit": "ANY",
+    "hours": {
+      "note": "noites; auge ~21h-1h"
+    },
+    "mapQuery": "Silom Soi 4 Bangkok",
+    "history": "Reduto LGBTQ+ desde os anos 1980, o beco foi um dos primeiros espaços gays abertos da cidade e segue como referência afetiva da comunidade."
+  },
+  {
+    "id": "jodd_fairs_ratchada",
+    "categoryId": "noite",
+    "name": "Jodd Fairs Ratchada",
+    "tagline": "Jantar, drinks e costelas vulcânicas",
+    "description": "O mercado noturno da moda em Bangkok: lonas coloridas vistas do alto, centenas de barracas de comida, bares e uma energia jovem contagiante. É o lugar perfeito para juntar jantar de rua e balada leve numa noite só, central e fácil de chegar de metrô.",
+    "whatToDo": [
+      "Encare a leng saap (costela de porco 'vulcânica' na sopa apimentada)",
+      "Prove o sushi gigante e as sobremesas de coco",
+      "Beba nos bares e barzinhos com música do mercado",
+      "Fotografe a vista das lonas coloridas de um prédio vizinho"
+    ],
+    "kingTip": "Fica a 3 min do MRT Thailand Cultural Centre (saída 4). O antigo Jodd Fairs Rama 9 fechou; tudo se concentra agora aqui, na unidade Ratchada.",
+    "whereToEat": "É o próprio destino gastronômico: dezenas de barracas de street food e a famosa leng saap.",
+    "lat": 13.7692,
+    "lng": 100.5392,
+    "durationLabel": "uma noite",
+    "fit": "ANY",
+    "hours": {
+      "note": "todo dia ~17h-1h"
+    },
+    "mapQuery": "Jodd Fairs Ratchada Bangkok",
+    "history": "Sucessor do antigo mercado de trem de Ratchada, tornou-se o principal mercado noturno de comida da Bangkok atual."
+  },
+  {
+    "id": "ayutthaya_wat_mahathat",
+    "categoryId": "ayutthaya",
+    "name": "Wat Mahathat",
+    "tagline": "A cabeça de Buda abraçada pela árvore",
+    "description": "O templo mais fotografado de Ayutthaya guarda a imagem que virou símbolo da Tailândia: uma cabeça de Buda de arenito envolvida pelas raízes de uma figueira. As ruínas de tijolo vermelho e os prangs em ruína criam um clima de cidade perdida. É o coração do parque histórico.",
+    "whatToDo": [
+      "Encontre a cabeça de Buda nas raízes (fica no canto oeste do complexo)",
+      "Ao fotografar a cabeça, agache: por respeito, sua cabeça não pode ficar acima da do Buda",
+      "Vá cedo (antes das 9h) para luz suave e menos calor",
+      "Combine com o Wat Ratchaburana, logo em frente"
+    ],
+    "kingTip": "Leve chapéu e água: quase não há sombra entre as ruínas.",
+    "whereToEat": "Barracas e cafés na Chikun Road, a poucos minutos; peça boat noodles ou roti-sai-mai (o doce típico de Ayutthaya).",
+    "lat": 14.3569,
+    "lng": 100.5678,
+    "durationLabel": "1-2h",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Diariamente 8h-18h; ingresso ~50 THB"
+    },
+    "mapQuery": "Wat Mahathat Ayutthaya",
+    "history": "Fundado no século XIV, foi um dos templos reais mais importantes do reino de Ayutthaya, saqueado pelo exército birmanês em 1767."
+  },
+  {
+    "id": "ayutthaya_wat_chaiwatthanaram",
+    "categoryId": "ayutthaya",
+    "name": "Wat Chaiwatthanaram",
+    "tagline": "O templo à beira-rio ao pôr do sol",
+    "description": "Grandioso e simétrico, inspirado no estilo Khmer de Angkor, este é o templo mais cinematográfico de Ayutthaya. Fica na margem oeste do rio Chao Phraya e ganha tons dourados ao entardecer. Foi cenário da série tailandesa que popularizou fotos com traje histórico.",
+    "whatToDo": [
+      "Fique para o pôr do sol: o prang central se reflete no rio",
+      "Alugue um traje tailandês tradicional nas lojas próximas para fotos",
+      "Suba com cuidado ao terraço central para ver a simetria dos oito chedis",
+      "Leve repelente ao anoitecer"
+    ],
+    "kingTip": "Chegue de bicicleta pela ponte: o trajeto pela margem do rio é lindo e evita filas de van.",
+    "whereToEat": "Poucas opções ali; volte ao centro (ilha) para jantar no mercado noturno de Bang Ian.",
+    "lat": 14.3418,
+    "lng": 100.5453,
+    "durationLabel": "1-2h",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Diariamente 8h-18h; ingresso ~50 THB"
+    },
+    "mapQuery": "Wat Chaiwatthanaram Ayutthaya",
+    "history": "Construído em 1630 pelo rei Prasat Thong, possivelmente em homenagem à mãe, com layout que evoca o monte Meru budista."
+  },
+  {
+    "id": "ayutthaya_wat_phra_si_sanphet",
+    "categoryId": "ayutthaya",
+    "name": "Wat Phra Si Sanphet",
+    "tagline": "Os três chedis reais em fila",
+    "description": "Os três stupas em forma de sino, alinhados e imponentes, são a imagem clássica do antigo palácio real de Ayutthaya. Era o templo mais sagrado da cidade, usado só pela realeza, sem monges residentes. Hoje o gramado ao redor convida a caminhar sem pressa.",
+    "whatToDo": [
+      "Fotografe os três chedis em fila, especialmente de manhã cedo",
+      "Caminhe pelo antigo terreno do Grande Palácio, ao lado",
+      "Combine com o Viharn Phra Mongkhon Bophit vizinho (grande Buda dourado, coberto)",
+      "Use o mesmo ingresso combinado do parque"
+    ],
+    "kingTip": "O ingresso combinado (~220 THB) cobre os 6 principais templos e sai bem mais em conta.",
+    "whereToEat": "Restaurantes turísticos em frente ao Bophit; para algo local, o mercado da tarde perto do parque.",
+    "lat": 14.3556,
+    "lng": 100.5583,
+    "durationLabel": "1h",
+    "fit": "ANY",
+    "hours": {
+      "note": "Diariamente 8h-18h; ingresso ~50 THB"
+    },
+    "mapQuery": "Wat Phra Si Sanphet Ayutthaya",
+    "history": "Erguido no fim do século XV, guardava as cinzas de reis; os chedis abrigavam restos de três monarcas de Ayutthaya."
+  },
+  {
+    "id": "ayutthaya_parque_historico",
+    "categoryId": "ayutthaya",
+    "name": "Parque Histórico de Ayutthaya",
+    "tagline": "Cidade-reino Patrimônio da Humanidade",
+    "description": "A antiga capital do Sião, hoje um vasto parque de ruínas tombado pela UNESCO, é o melhor de Ayutthaya visto como um todo. Templos, palácios e Budas espalhados por uma ilha cercada por três rios. A melhor forma de explorar é de bicicleta, no ritmo lento que o lugar pede.",
+    "whatToDo": [
+      "Alugue uma bicicleta (~50 THB/dia) perto da estação ou do centro",
+      "Faça um roteiro: Mahathat, Ratchaburana, Si Sanphet e Bophit ficam próximos",
+      "Compre o ingresso combinado dos 6 templos",
+      "Reserve o fim de tarde para Chaiwatthanaram, à beira-rio"
+    ],
+    "kingTip": "Um bate-volta de Bangkok cabe num dia, mas dormir uma noite deixa ver as ruínas iluminadas.",
+    "whereToEat": "Mercado noturno de Bang Ian (à noite) e Krua Nai Suan para comida tailandesa caseira.",
+    "lat": 14.355,
+    "lng": 100.5677,
+    "durationLabel": "dia inteiro",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Templos em geral 8h-18h; alguns iluminados até 21h"
+    },
+    "mapQuery": "Ayutthaya Historical Park",
+    "history": "Ayutthaya foi capital do Sião de 1350 a 1767 e uma das maiores cidades do mundo no século XVII, com comerciantes de toda a Ásia e Europa."
+  },
+  {
+    "id": "ayutthaya_como_chegar",
+    "categoryId": "ayutthaya",
+    "name": "Como ir de Bangkok a Ayutthaya",
+    "tagline": "Trem barato ou van rápida",
+    "description": "Ayutthaya é um bate-volta fácil de Bangkok, a cerca de 80 km ao norte. O trem é a opção mais charmosa e barata; vans e minivans são mais rápidas. Para o dia 22/11, saia cedo para aproveitar o parque antes do calor do meio-dia.",
+    "whatToDo": [
+      "Trem: da estação Krung Thep Aphiwat (Bang Sue) leva ~1h; expressos e ordinários várias vezes ao dia",
+      "Trem ordinário 3ª classe custa poucos baht (15-65 THB); não precisa reservar",
+      "Da estação de Ayutthaya, atravesse o rio de barquinho (~5 THB) e alugue bike",
+      "Alternativa: van de Bangkok (Mo Chit) leva ~1h30"
+    ],
+    "kingTip": "Volte a Bangkok num trem do fim de tarde para ver o pôr do sol pela janela; confira o último horário antes.",
+    "whereToEat": "Coma na ilha antes de voltar; evite depender de opções na estação.",
+    "lat": 14.36,
+    "lng": 100.5867,
+    "durationLabel": "1-2h de trajeto",
+    "fit": "ANY",
+    "hours": {
+      "note": "Trens ~05h-22h; verifique horários no dia"
+    },
+    "mapQuery": "Ayutthaya Railway Station",
+    "history": "A linha ferroviária norte, inaugurada no reinado de Rama V, ainda é a forma clássica de chegar às ruínas."
+  },
+  {
+    "id": "ayutthaya_bike_nao_elefante",
+    "categoryId": "ayutthaya",
+    "name": "Ayutthaya de bicicleta (e não de elefante)",
+    "tagline": "Explore pedalando, com consciência",
+    "description": "A ilha de Ayutthaya é plana e compacta, perfeita para pedalar entre as ruínas. Você verá também passeios de elefante com turistas pelas ruas. Recomendamos pular esse passeio: os elefantes ficam acorrentados no calor do asfalto e carregar pessoas machuca a coluna deles.",
+    "whatToDo": [
+      "Alugue bicicleta simples (~50 THB) ou elétrica perto do centro/estação",
+      "Monte um circuito ligando os principais templos, com pausas à sombra",
+      "Recuse o passeio de elefante nas ruas: não é ética nem confortável para o animal",
+      "Se quiser ver elefantes, prefira santuários de observação perto de Chiang Mai"
+    ],
+    "kingTip": "Muitas pousadas emprestam bike de graça aos hóspedes; pergunte antes de alugar.",
+    "whereToEat": "Pare no mercado da tarde perto do Bophit para lanches e sucos gelados enquanto pedala.",
+    "lat": 14.356,
+    "lng": 100.562,
+    "durationLabel": "meio período",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Locadoras em geral 8h-17h"
+    },
+    "mapQuery": "Ayutthaya bicycle rental Historical Park",
+    "history": "O uso de elefantes no turismo de Ayutthaya é criticado por ONGs de bem-estar animal há anos."
+  },
+  {
+    "id": "cm_cidade_velha_fosso",
+    "categoryId": "chiangmai",
+    "name": "Cidade Velha e o Fosso",
+    "tagline": "Um quadrado murado cheio de templos",
+    "description": "O coração de Chiang Mai é um quadrado quase perfeito cercado por um fosso e restos de muralha do século XIII. Dentro cabem dezenas de templos, cafés, guesthouses e ruelas para se perder a pé. É a base ideal para o casal explorar tudo caminhando.",
+    "whatToDo": [
+      "Comece pelo Tha Phae Gate, o portão leste mais famoso",
+      "Ande sem rumo pelas sois: quase toda esquina tem um wat",
+      "Veja o fosso iluminado à noite, especialmente na época do festival",
+      "Alugue bikes ou vá a pé; o miolo é pequeno"
+    ],
+    "kingTip": "Hospede-se dentro ou colado à Cidade Velha para voltar a pé depois das festas de rua.",
+    "whereToEat": "Cowboy Hat Lady (khao kha moo) perto de Chang Phuak Gate e barracas no fosso.",
+    "lat": 18.7896,
+    "lng": 98.984,
+    "durationLabel": "meio dia a explorar",
+    "fit": "ANY",
+    "hours": {
+      "note": "Área aberta sempre; templos ~6h-18h"
+    },
+    "mapQuery": "Chiang Mai Old City Tha Phae Gate",
+    "history": "Chiang Mai foi fundada em 1296 como capital do reino Lanna; o fosso e as muralhas serviam de defesa."
+  },
+  {
+    "id": "cm_wat_phra_singh",
+    "categoryId": "chiangmai",
+    "name": "Wat Phra Singh",
+    "tagline": "O templo mais venerado da Cidade Velha",
+    "description": "No extremo oeste da rua principal da Cidade Velha, o Wat Phra Singh é o templo mais importante de Chiang Mai. Combina arquitetura Lanna clássica, murais delicados e detalhes dourados. O pátio é sereno mesmo com movimento, e à noite os chedis ficam iluminados.",
+    "whatToDo": [
+      "Veja os murais do Viharn Lai Kham, retratando a vida no antigo Lanna",
+      "Observe o chedi dourado e os leões guardiões",
+      "Vá no fim de tarde: menos calor e luz dourada nos telhados",
+      "Vista ombros e joelhos cobertos (há sarongs no local)"
+    ],
+    "kingTip": "É gratuito para o pátio; uma pequena doação ajuda a manutenção do templo.",
+    "whereToEat": "Cafés e restaurantes vegetarianos na Rachadamnoen Road, em frente.",
+    "lat": 18.7889,
+    "lng": 98.9817,
+    "durationLabel": "45min-1h",
+    "fit": "ANY",
+    "hours": {
+      "note": "Diariamente ~6h-18h; doação sugerida ~40 THB"
+    },
+    "mapQuery": "Wat Phra Singh Chiang Mai",
+    "history": "Fundado em 1345, abriga a imagem Phra Singh, muito reverenciada, foco das procissões do Ano-Novo tailandês (Songkran)."
+  },
+  {
+    "id": "cm_wat_chedi_luang",
+    "categoryId": "chiangmai",
+    "name": "Wat Chedi Luang",
+    "tagline": "A ruína do grande chedi",
+    "description": "No centro da Cidade Velha ergue-se o colossal chedi de tijolos, parcialmente desmoronado por um terremoto há séculos, mas ainda imponente. É um dos lugares mais atmosféricos de Chiang Mai, sobretudo ao entardecer. Um dos templos mais fotogênicos da cidade.",
+    "whatToDo": [
+      "Circule o grande chedi e veja os elefantes de pedra na base",
+      "Participe do 'monk chat': converse com monges que treinam inglês",
+      "Veja o pilar da cidade (Lak Mueang), no recinto",
+      "Volte à noite para ver a estrutura iluminada"
+    ],
+    "kingTip": "O 'monk chat' costuma rolar no fim da tarde; é gratuito e uma troca cultural genuína.",
+    "whereToEat": "Fera Coffee e comidinhas nas ruas ao redor da Prapokklao Road.",
+    "lat": 18.787,
+    "lng": 98.9863,
+    "durationLabel": "45min-1h",
+    "fit": "ANY",
+    "hours": {
+      "note": "Diariamente ~6h-18h; ingresso ~50 THB"
+    },
+    "mapQuery": "Wat Chedi Luang Chiang Mai",
+    "history": "Concluído no século XV, chegou a 80 m de altura e abrigou o Buda de Esmeralda antes de danos por um terremoto em 1545."
+  },
+  {
+    "id": "cm_doi_suthep",
+    "categoryId": "chiangmai",
+    "name": "Wat Phra That Doi Suthep",
+    "tagline": "O templo dourado na montanha",
+    "description": "No alto do monte Suthep, com vista para toda Chiang Mai, este é o templo mais sagrado do norte. Um chedi dourado brilha no centro do pátio, cercado de sinos e imagens. A subida de 306 degraus (ou funicular) faz parte da experiência.",
+    "whatToDo": [
+      "Suba a escadaria dos nagas (serpentes) ou use o funicular",
+      "Dê a volta ritual ao chedi dourado três vezes",
+      "Aproveite o mirante com vista da cidade nos dias claros",
+      "Vá cedo para evitar neblina e multidões"
+    ],
+    "kingTip": "Combine com o vilarejo Hmong de Doi Pui ou o Palácio de Inverno (Phu Ping) na mesma subida.",
+    "whereToEat": "Barracas de comida no estacionamento; prove o khao soi ao voltar à cidade.",
+    "lat": 18.8047,
+    "lng": 98.9217,
+    "durationLabel": "meio período",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Diariamente 6h-18h; ingresso estrangeiros ~50 THB"
+    },
+    "mapQuery": "Wat Phra That Doi Suthep",
+    "history": "Segundo a lenda, o chedi foi erguido em 1383 onde um elefante branco sagrado, carregando uma relíquia de Buda, parou e morreu."
+  },
+  {
+    "id": "cm_nimmanhaemin",
+    "categoryId": "chiangmai",
+    "name": "Nimmanhaemin",
+    "tagline": "O bairro descolado dos cafés",
+    "description": "Nimman (como todos chamam) é o lado moderno de Chiang Mai: cafés de especialidade, lojas de design, galerias e a vida noturna jovem perto da universidade. Perfeito para uma pausa com bom café entre um templo e outro. Um contraste charmoso com a Cidade Velha.",
+    "whatToDo": [
+      "Faça um café-tour: a região tem alta concentração de cafés autorais",
+      "Explore o complexo One Nimman, com lojas e artesanato",
+      "Curta bares e música à noite nas sois pares e ímpares",
+      "Prove sorvetes e doces artesanais das cafeterias"
+    ],
+    "kingTip": "Ristr8to é referência mundial em latte art; ótimo ponto de partida para os amantes de café.",
+    "whereToEat": "Tong Tem Toh (comida do norte) e a praça de alimentação do Maya Mall.",
+    "lat": 18.7975,
+    "lng": 98.967,
+    "durationLabel": "2-3h",
+    "fit": "ANY",
+    "hours": {
+      "note": "Cafés ~8h-18h; bares até tarde"
+    },
+    "mapQuery": "Nimmanhaemin Road Chiang Mai",
+    "history": "Cresceu nas últimas décadas ao redor da Universidade de Chiang Mai, virando polo criativo e de nômades digitais."
+  },
+  {
+    "id": "cm_sunday_walking_street",
+    "categoryId": "chiangmai",
+    "name": "Sunday Walking Street",
+    "tagline": "A feira de domingo na rua dos templos",
+    "description": "Todo domingo à noite, a Rachadamnoen Road (do Tha Phae Gate para dentro) fecha para carros e vira um rio de barracas de artesanato, comida e música. É a melhor feira de Chiang Mai: local, criativa e deliciosa. Chegue com fome e paciência para a multidão.",
+    "whatToDo": [
+      "Coma pelos pátios dos templos, transformados em food courts",
+      "Compre artesanato Lanna, tecidos e prata direto dos artesãos",
+      "Ouça músicos de rua, muitos deles cegos, tocando por doações",
+      "Comece cedo (por volta das 17h) antes do pico"
+    ],
+    "kingTip": "Se cair num sábado, há a Saturday Walking Street na Wualai Road (rua da prata).",
+    "whereToEat": "Nos pátios dos templos ao longo da rua: khao soi, pad thai, roti e sucos.",
+    "lat": 18.7877,
+    "lng": 98.9931,
+    "durationLabel": "2-3h",
+    "fit": "RAIN_OK",
+    "hours": {
+      "note": "Domingos ~16h-22h30"
+    },
+    "mapQuery": "Sunday Walking Street Chiang Mai Tha Phae Gate",
+    "history": "A feira ocupa a via cerimonial da antiga capital Lanna, ligando o portão leste ao centro sagrado da cidade."
+  },
+  {
+    "id": "cm_bo_sang",
+    "categoryId": "chiangmai",
+    "name": "Bo Sang, a vila dos guarda-sóis",
+    "tagline": "Sombrinhas de papel pintadas à mão",
+    "description": "A cerca de 9 km a leste da cidade, Bo Sang é famosa pelos guarda-sóis e leques de papel saa, pintados à mão com flores e paisagens. Dá para ver o processo artesanal completo e até pintar sua própria sombrinha. Uma parada colorida no caminho de San Kamphaeng.",
+    "whatToDo": [
+      "Veja artesãos montando e pintando as sombrinhas de papel",
+      "Peça para pintarem um desenho na sua mochila ou celular (na hora)",
+      "Compre sombrinhas, leques e lembranças direto da fonte",
+      "Combine com as lojas de seda e algodão de San Kamphaeng"
+    ],
+    "kingTip": "Se viajar em janeiro, o festival das sombrinhas enche a vila de cor; fora disso, o dia a dia já vale.",
+    "whereToEat": "Cafés simples na vila; para almoço melhor, siga até San Kamphaeng.",
+    "lat": 18.7583,
+    "lng": 99.0857,
+    "durationLabel": "1-2h",
+    "fit": "ANY",
+    "hours": {
+      "note": "Oficinas em geral 8h-17h"
+    },
+    "mapQuery": "Bo Sang Umbrella Village Chiang Mai",
+    "history": "A tradição das sombrinhas de papel em Bo Sang tem mais de 100 anos e passou de geração em geração."
+  },
+  {
+    "id": "cm_cooking_class",
+    "categoryId": "chiangmai",
+    "name": "Aula de culinária tailandesa",
+    "tagline": "Cozinhe pad thai e khao soi juntos",
+    "description": "Fazer uma cooking class é um dos programas mais queridos de Chiang Mai, ideal para casal. A maioria começa no mercado, ensinando a escolher ervas e temperos, e segue para uma fazenda ou cozinha onde você prepara 4-6 pratos. Você sai com receitas e barriga cheia.",
+    "whatToDo": [
+      "Escolha escola com visita ao mercado e horta (mais completo)",
+      "Aprenda a fazer pasta de curry no pilão, do zero",
+      "Avise sobre restrições: quase todas têm opção vegetariana",
+      "Reserve com 1-2 dias de antecedência, sobretudo na alta temporada"
+    ],
+    "kingTip": "As aulas em fazenda (Mae Rim/San Kamphaeng) incluem transporte e são mais gostosas que as urbanas.",
+    "whereToEat": "Você mesmo cozinha o almoço/jantar; leve fome.",
+    "lat": 18.7896,
+    "lng": 98.984,
+    "durationLabel": "meio dia",
+    "fit": "ANY",
+    "hours": {
+      "note": "Turmas de manhã ou tarde, ~4-5h"
+    },
+    "mapQuery": "Thai cooking class Chiang Mai Old City",
+    "history": "A cozinha do norte (Lanna) tem pratos próprios, como o khao soi, curry de macarrão com leite de coco de herança birmanesa-muçulmana."
+  },
+  {
+    "id": "cm_mae_kampong_cafe",
+    "categoryId": "chiangmai",
+    "name": "Mae Kampong e cafés de montanha",
+    "tagline": "Vila na floresta com café e cachoeira",
+    "description": "A cerca de 1h30 a leste, Mae Kampong é uma vila de montanha entre plantações de chá e café, casas de madeira e ar fresco. Vários cafés se debruçam sobre o riacho e a mata. É o refúgio verde perfeito para desacelerar longe do calor da planície.",
+    "whatToDo": [
+      "Tome café numa varanda sobre o riacho, entre a mata",
+      "Caminhe até a pequena cachoeira da vila",
+      "Visite o café-árvore The Giant, com deck no alto das árvores (a caminho)",
+      "Leve casaco leve: a serra é bem mais fria"
+    ],
+    "kingTip": "Dá para dormir em homestays da vila e acordar com neblina na floresta.",
+    "whereToEat": "Cafés e restaurantes da própria vila, com pratos do norte e chá local.",
+    "lat": 18.865,
+    "lng": 99.372,
+    "durationLabel": "meio dia a dia inteiro",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Cafés ~9h-17h; estrada sinuosa"
+    },
+    "mapQuery": "Mae Kampong Village Chiang Mai",
+    "history": "Mae Kampong é modelo de turismo comunitário na Tailândia, gerido pelos moradores em torno do cultivo de chá miang."
+  },
+  {
+    "id": "lanternas_yipeng_vs_loykrathong",
+    "categoryId": "lanternas",
+    "name": "Yi Peng x Loy Krathong: o que é o quê",
+    "tagline": "Dois festivais na mesma noite mágica",
+    "description": "Em novembro, Chiang Mai vive dois festivais ao mesmo tempo. O Loy Krathong é nacional: solta-se um 'krathong' (barquinho de folha de bananeira com flores e vela) nos rios, em gratidão à deusa das águas. O Yi Peng é do norte: enche o céu com 'khom loy', as lanternas de papel iluminadas. Em 2026 caem em 24 e 25 de novembro, com programação oficial de 24 a 26.",
+    "whatToDo": [
+      "Reserve a noite de 24/11 (data de vocês) para o auge das celebrações",
+      "Loy Krathong: solte um krathong no rio Ping ao anoitecer",
+      "Yi Peng: veja e, onde for permitido, solte lanternas no céu",
+      "Prepare-se para multidão: chegue cedo aos pontos centrais"
+    ],
+    "kingTip": "Compre krathongs de folha natural (não isopor) das vendedoras locais: melhor para o rio.",
+    "whereToEat": "Barracas por toda a orla do Ping e no Tha Phae; jante cedo antes da multidão.",
+    "lat": 18.7883,
+    "lng": 98.9853,
+    "durationLabel": "noite inteira",
+    "fit": "ANY",
+    "hours": {
+      "note": "2026: Yi Peng 24-25/11, Loy Krathong 25/11; eventos 24-26/11"
+    },
+    "mapQuery": "Chiang Mai Old City lantern festival",
+    "history": "Yi Peng significa 'segunda lua cheia' no calendário Lanna; a soltura das lanternas simboliza deixar ir o azar e fazer pedidos."
+  },
+  {
+    "id": "lanternas_tha_phae_gate",
+    "categoryId": "lanternas",
+    "name": "Tha Phae Gate no festival",
+    "tagline": "O coração gratuito das festas",
+    "description": "O portão leste da Cidade Velha é o palco público do festival: lanternas penduradas (khom khwaen), palcos com dança e música, procissões e desfiles de carros alegóricos. É gratuito, animado e o melhor lugar para sentir o clima da festa sem pagar ingresso. Bom ponto de partida para a noite.",
+    "whatToDo": [
+      "Veja o desfile de carros alegóricos que sai do Tha Phae rumo à Ponte Nawarat",
+      "Fotografe as lanternas penduradas e os arcos decorados",
+      "Assista às apresentações culturais nos palcos da praça",
+      "Siga a multidão a pé até o rio Ping"
+    ],
+    "kingTip": "Fique atento à sua cabeça e aos vizinhos: lanternas e velas em multidão pedem cuidado.",
+    "whereToEat": "Barracas de comida de rua montadas ao redor do portão e ao longo da Tha Phae Road.",
+    "lat": 18.7877,
+    "lng": 98.9931,
+    "durationLabel": "2-3h",
+    "fit": "RAIN_OK",
+    "hours": {
+      "note": "Auge à noite, ~18h-23h nas datas do festival"
+    },
+    "mapQuery": "Tha Phae Gate Chiang Mai",
+    "history": "O Tha Phae Gate é o portão cerimonial da cidade e concentra os grandes eventos públicos de Chiang Mai o ano todo."
+  },
+  {
+    "id": "lanternas_nawarat_ping",
+    "categoryId": "lanternas",
+    "name": "Ponte Nawarat e rio Ping",
+    "tagline": "Krathongs no rio, de graça",
+    "description": "A Ponte Nawarat, sobre o rio Ping, é o melhor ponto gratuito para ver o festival: enquanto o céu se enche de lanternas, o rio se cobre de milhares de krathongs brilhando na correnteza. É aqui que o desfile termina e a orla vira uma festa. Vista aberta e sem cobrança.",
+    "whatToDo": [
+      "Compre um krathong das vendedoras na orla e solte-o no Ping",
+      "Suba na ponte para ver o rio pontilhado de luzes",
+      "Chegue antes do escurecer para pegar bom lugar na mureta",
+      "Faça um pedido ao soltar o barquinho (a tradição pede isso)"
+    ],
+    "kingTip": "As margens ao sul da ponte, perto de cafés à beira-rio, costumam ser menos apinhadas.",
+    "whereToEat": "Cafés e restaurantes ribeirinhos como The Good View e Deck 1 (reserve na data do festival).",
+    "lat": 18.7877,
+    "lng": 99.0025,
+    "durationLabel": "1-2h",
+    "fit": "ANY",
+    "hours": {
+      "note": "Melhor após o pôr do sol nas datas do festival"
+    },
+    "mapQuery": "Nawarat Bridge Chiang Mai",
+    "history": "O rio Ping foi a via de comércio que ligou Chiang Mai ao resto do Sião; soltar krathongs nele é gesto de gratidão às águas."
+  },
+  {
+    "id": "lanternas_cad_khomloy",
+    "categoryId": "lanternas",
+    "name": "CAD Khomloy Sky Lantern Festival",
+    "tagline": "A grande soltura em massa (paga)",
+    "description": "Para a icônica cena de milhares de lanternas subindo juntas ao mesmo tempo, o caminho legal é um evento pago fora da cidade. Em 2026 o CAD Khomloy Sky Lantern Festival acontece em 24 e 25/11, no CAD Cultural Center Lanna, em Mae On. Inclui lanterna, jantar, cerimônia e transporte, com milhares de participantes.",
+    "whatToDo": [
+      "Compre só por canais oficiais/autorizados (vários golpes circulam)",
+      "Confirme se o pacote inclui transporte ida e volta de Chiang Mai",
+      "Há faixas de ingresso (Standard a Elite); compare o que cada uma dá",
+      "Leve roupa confortável e chegue no horário do transfer"
+    ],
+    "kingTip": "É o único jeito legal de soltar lanternas em massa perto de Chiang Mai; dentro da cidade é proibido.",
+    "whereToEat": "Jantar costuma estar incluso no ingresso; confirme ao comprar.",
+    "lat": 18.8267,
+    "lng": 99.213,
+    "durationLabel": "noite inteira",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "2026: 24-25/11; portões abrem à tarde, soltura à noite"
+    },
+    "mapQuery": "CAD Cultural Center Lanna Mae On Chiang Mai",
+    "history": "As solturas em massa fotografadas mundialmente acontecem em recintos licenciados fora da cidade, por segurança aérea."
+  },
+  {
+    "id": "lanternas_etiqueta_seguranca",
+    "categoryId": "lanternas",
+    "name": "Etiqueta e segurança das lanternas",
+    "tagline": "Solte com respeito e dentro da lei",
+    "description": "As lanternas são lindas, mas perigosas: causam incêndios e ameaçam aviões. Por isso, soltar khom loy dentro da área urbana de Chiang Mai é proibido, com multa de até 60.000 THB. O aeroporto restringe voos e rotas nessas noites. Vale conhecer as regras para curtir sem sustos.",
+    "whatToDo": [
+      "Não solte lanternas dentro do município: só em locais licenciados fora da cidade",
+      "Prefira soltar krathongs no rio (permitido) à lanterna aérea",
+      "Se soltar khom loy em evento, siga as orientações da equipe",
+      "Cuidado com velas e crianças em meio à multidão"
+    ],
+    "kingTip": "Se seu voo for por Chiang Mai perto de 24-25/11, cheque horários: há restrições e possíveis atrasos.",
+    "lat": 18.7883,
+    "lng": 98.9853,
+    "durationLabel": "leitura rápida",
+    "fit": "ANY",
+    "hours": {
+      "note": "Regras valem sobretudo nas noites de 24-25/11"
+    },
+    "mapQuery": "Chiang Mai",
+    "history": "Após incidentes com lanternas perto do aeroporto, as autoridades passaram a coordenar horários de voo e áreas de soltura."
+  },
+  {
+    "id": "cr_wat_rong_khun",
+    "categoryId": "chiangrai",
+    "name": "Wat Rong Khun (Templo Branco)",
+    "tagline": "Um templo branco surreal e reluzente",
+    "description": "O cartão-postal de Chiang Rai é uma obra de arte contemporânea toda branca, incrustada de espelhos que brilham ao sol. Criado pelo artista Chalermchai Kositpipat, mistura budismo com imagens de cultura pop. A passagem sobre 'mãos do inferno' antes de entrar é inesquecível. Fica a ~3h de Chiang Mai.",
+    "whatToDo": [
+      "Atravesse a ponte sobre as mãos que se erguem (o ciclo do sofrimento)",
+      "Repare nos murais internos com referências pop (não se pode fotografar dentro)",
+      "Não perca o dourado banheiro ao lado (representa o corpo/material)",
+      "Vá cedo: lota e o branco reflete muito sol ao meio-dia"
+    ],
+    "kingTip": "De Chiang Mai, saia bem cedo (~3h de van/carro) ou faça excursão de dia inteiro combinando Templo Azul.",
+    "whereToEat": "Cafés e food court na entrada do complexo; almoce na cidade de Chiang Rai.",
+    "lat": 19.8242,
+    "lng": 99.7633,
+    "durationLabel": "1-2h",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Diariamente ~8h-17h; ingresso estrangeiros ~100 THB"
+    },
+    "mapQuery": "Wat Rong Khun White Temple Chiang Rai",
+    "history": "Começou a ser construído em 1997 pelo artista local Chalermchai Kositpipat e segue em obras, financiado por ele como oferenda."
+  },
+  {
+    "id": "cr_wat_rong_suea_ten",
+    "categoryId": "chiangrai",
+    "name": "Wat Rong Suea Ten (Templo Azul)",
+    "tagline": "Azul-safira e ouro deslumbrantes",
+    "description": "Mais recente e intenso, o Templo Azul explode em tons de azul-cobalto com detalhes dourados, por dentro e por fora. No santuário, um grande Buda branco sentado contrasta com o azul vibrante. É menor que o Branco, mas igualmente fotogênico e menos cansativo de visitar.",
+    "whatToDo": [
+      "Entre para ver o Buda branco e os murais azul e ouro",
+      "Repare nos detalhes das colunas e nagas (serpentes)",
+      "Combine com o Templo Branco e a Casa Negra num só dia",
+      "Vista roupas cobrindo ombros e joelhos"
+    ],
+    "kingTip": "É gratuito, ao contrário do Branco; deixe uma doação se puder.",
+    "whereToEat": "O famoso sorvete de coco azul na entrada; restaurantes na cidade, bem perto.",
+    "lat": 19.9432,
+    "lng": 99.8358,
+    "durationLabel": "30-45min",
+    "fit": "ANY",
+    "hours": {
+      "note": "Diariamente ~7h-20h; entrada gratuita"
+    },
+    "mapQuery": "Wat Rong Suea Ten Blue Temple Chiang Rai",
+    "history": "Concluído em 2016 por um discípulo do criador do Templo Branco; o nome significa 'casa dos tigres dançantes'."
+  },
+  {
+    "id": "cr_baan_dam",
+    "categoryId": "chiangrai",
+    "name": "Baan Dam (Casa Negra)",
+    "tagline": "O lado sombrio e visceral da arte",
+    "description": "Contraponto ao Templo Branco, o Baan Dam é um conjunto de casas escuras cheias de crânios, chifres, peles e ossos de animais, criado pelo artista Thawan Duchanee. Mais museu-galeria que templo, é provocador e fascinante. Mostra a face da morte e do instinto na trilogia artística de Chiang Rai.",
+    "whatToDo": [
+      "Percorra os pavilhões negros e suas coleções macabras",
+      "Repare no contraste proposital com a pureza do Templo Branco",
+      "Reserve tempo: são dezenas de estruturas no jardim",
+      "Complete a 'trilogia': Branco (céu), Azul (equilíbrio) e Negro (inferno/morte)"
+    ],
+    "kingTip": "Não é infantil nem religioso no sentido usual: encare como galeria de arte provocadora.",
+    "whereToEat": "Poucas opções ali; almoce no centro de Chiang Rai.",
+    "lat": 20.001,
+    "lng": 99.8247,
+    "durationLabel": "1h",
+    "fit": "ANY",
+    "hours": {
+      "note": "Diariamente ~9h-17h (pausa ao meio-dia); ingresso ~80 THB"
+    },
+    "mapQuery": "Baan Dam Museum Black House Chiang Rai",
+    "history": "Levou mais de 30 anos para ser construído por Thawan Duchanee, um dos artistas mais influentes da Tailândia moderna."
+  },
+  {
+    "id": "cr_triangulo_dourado",
+    "categoryId": "chiangrai",
+    "name": "Triângulo Dourado (Golden Triangle)",
+    "tagline": "Onde Tailândia, Laos e Myanmar se encontram",
+    "description": "No ponto onde o rio Mekong marca a fronteira de três países, o Triângulo Dourado é histórico e cênico. Já foi o coração do comércio do ópio; hoje tem mirantes, um grande Buda dourado e o interessante Museu do Ópio (Hall of Opium). Um passeio de barco leva você às margens dos vizinhos.",
+    "whatToDo": [
+      "Suba ao mirante para ver os três países de uma vez",
+      "Faça o passeio de barco pelo Mekong (parada em ilha do Laos)",
+      "Visite o Hall of Opium para entender a história da região",
+      "Fotografe o grande Buda dourado sobre o barco cerimonial"
+    ],
+    "kingTip": "Fica ~1h ao norte de Chiang Rai; junte com Chiang Saen e Doi Tung num roteiro de dia inteiro.",
+    "whereToEat": "Restaurantes com vista para o Mekong em Sop Ruak.",
+    "lat": 20.354,
+    "lng": 100.08,
+    "durationLabel": "meio dia",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Mirante sempre aberto; Hall of Opium ~8h30-16h, fecha segunda"
+    },
+    "mapQuery": "Golden Triangle Sop Ruak Chiang Rai",
+    "history": "Batizado nos anos 1970, foi um dos maiores centros de produção de ópio do mundo, hoje reconvertido pelo turismo e por projetos reais."
+  },
+  {
+    "id": "cr_doi_tung",
+    "categoryId": "chiangrai",
+    "name": "Doi Tung e as plantações de chá",
+    "tagline": "Jardins reais e chá nas montanhas",
+    "description": "Nas montanhas ao norte, Doi Tung foi transformado por um projeto da família real que substituiu o cultivo de ópio por café, chá e flores. Hoje tem a Villa Real, o exuberante Jardim Mae Fah Luang e vistas de plantações em terraços. Ar fresco, jardins impecáveis e uma história de transformação social.",
+    "whatToDo": [
+      "Visite a Villa Real (Doi Tung) e o Jardim Mae Fah Luang",
+      "Veja as plantações de chá e café em terraços (Choui Fong fica na região)",
+      "Prove café e chá locais do projeto de desenvolvimento",
+      "Leve casaco: a serra é fresca o ano todo"
+    ],
+    "kingTip": "Combine com o Triângulo Dourado no mesmo dia, subindo de Chiang Rai (~1h30).",
+    "whereToEat": "Café Doi Tung e o café panorâmico da fazenda de chá Choui Fong.",
+    "lat": 20.2887,
+    "lng": 99.809,
+    "durationLabel": "meio dia",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Villa/jardim ~7h-17h; ingressos combinados ~150-220 THB"
+    },
+    "mapQuery": "Doi Tung Royal Villa Mae Fah Luang Chiang Rai",
+    "history": "O Projeto de Desenvolvimento de Doi Tung, iniciado em 1988 pela Princesa-Mãe, é modelo mundial de substituição de cultivos ilícitos."
+  },
+  {
+    "id": "natureza_elephant_nature_park",
+    "categoryId": "natureza",
+    "name": "Elephant Nature Park",
+    "tagline": "Santuário ético: observar, não montar",
+    "description": "A ~1h de Chiang Mai, o Elephant Nature Park é um santuário pioneiro que resgata elefantes de circos, madeireiras e passeios turísticos. Aqui não se monta nem se dá banho forçado nos animais: você os observa vivendo em liberdade no vale. É a forma respeitosa de ver elefantes de perto.",
+    "whatToDo": [
+      "Reserve com antecedência: as visitas são limitadas e disputadas",
+      "Observe os elefantes livres no vale, sem montaria nem correntes",
+      "Aprenda sobre resgate e reabilitação com os guias",
+      "Recuse qualquer 'santuário' que ofereça montar ou banho de espetáculo"
+    ],
+    "kingTip": "Fundado por Lek Chailert, premiada mundialmente; foco é bem-estar animal, não entretenimento.",
+    "whereToEat": "Refeição (vegetariana) costuma estar inclusa nos pacotes de visita.",
+    "lat": 19.2333,
+    "lng": 98.857,
+    "durationLabel": "dia inteiro",
+    "fit": "ANY",
+    "hours": {
+      "note": "Visitas guiadas com reserva prévia; sem venda no portão"
+    },
+    "mapQuery": "Elephant Nature Park Mae Taeng Chiang Mai",
+    "history": "Criado em 1995, foi um dos primeiros da Ásia a banir a montaria (2003) e virou referência ética; sua fundadora recebeu prêmios internacionais de conservação."
+  },
+  {
+    "id": "natureza_doi_inthanon",
+    "categoryId": "natureza",
+    "name": "Doi Inthanon",
+    "tagline": "O teto da Tailândia",
+    "description": "O ponto mais alto do país (2.565 m) é um parque nacional de floresta úmida, cachoeiras e ar fresco. No topo, os dois chedis reais gêmeos e seus jardins são o destaque, além da trilha suspensa de Ang Ka pela mata musgosa. Um respiro de natureza e clima ameno perto de Chiang Mai.",
+    "whatToDo": [
+      "Suba aos dois chedis reais (Rei e Rainha) e seus jardins de flores",
+      "Faça a trilha suspensa Ang Ka Nature Trail, no cume",
+      "Pare nas cachoeiras Wachirathan e Sirithan na subida",
+      "Visite os terraços de arroz e a vila Karen de Ban Mae Klang Luang"
+    ],
+    "kingTip": "Leve blusa: no topo pode fazer frio de verdade, e amanhecer lá é gelado.",
+    "whereToEat": "Cafés de montanha e restaurantes comunitários Karen no caminho.",
+    "lat": 18.5883,
+    "lng": 98.4867,
+    "durationLabel": "dia inteiro",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Parque ~5h30-18h; taxa de entrada ~300 THB estrangeiros"
+    },
+    "mapQuery": "Doi Inthanon National Park summit",
+    "history": "Leva o nome do último rei de Chiang Mai, Inthawichayanon, que pediu para ser sepultado na montanha que tanto amava."
+  },
+  {
+    "id": "natureza_sticky_waterfall",
+    "categoryId": "natureza",
+    "name": "Cachoeira Pegajosa (Bua Tong)",
+    "tagline": "A cachoeira em que dá para subir",
+    "description": "A Bua Tong é uma cachoeira de calcário onde a rocha tem aderência natural: dá para subir descalço pela queda d'água sem escorregar. A água rica em cálcio cristaliza e cria uma superfície áspera que gruda nos pés. Divertida, gratuita e refrescante, a ~1h ao norte da cidade.",
+    "whatToDo": [
+      "Suba descalço pelos três níveis, segurando nas cordas onde há",
+      "Sinta a diferença: a pedra clara gruda, a escura (limosa) escorrega",
+      "Refresque-se na nascente Nam Phu Chet Si, no topo",
+      "Leve troca de roupa e calçado que possa molhar"
+    ],
+    "kingTip": "É de graça e raramente lotada em dia de semana; combine com a Sri Lanna se tiver carro.",
+    "whereToEat": "Barracas simples no estacionamento; leve água e lanches.",
+    "lat": 19.07,
+    "lng": 99.0801,
+    "durationLabel": "meio período",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Diariamente ~8h-17h; entrada gratuita"
+    },
+    "mapQuery": "Bua Tong Sticky Waterfall Chiang Mai",
+    "history": "Fica no Parque Nacional Sri Lanna; a rocha calcária (tufa) se forma pela cristalização do cálcio da nascente ao contato com o ar."
+  },
+  {
+    "id": "railay_beach",
+    "categoryId": "krabi",
+    "name": "Railay Beach (Railay West & East)",
+    "tagline": "Penínsulas de falésias só de barco",
+    "description": "Uma península cercada de paredões de calcário, acessível apenas por longtail — sem estradas. Railay West tem areia branca e pôr do sol de cartão-postal; Railay East é manguezal e base dos escaladores. Atravesse a pé (5 min) entre as duas e chegue à deslumbrante Phra Nang Beach.",
+    "whatToDo": [
+      "Pegue longtail em Ao Nang (~15 min, ~150 THB por pessoa)",
+      "Curta o fim de tarde em Railay West",
+      "Caminhe até Phra Nang Beach e a caverna Princess",
+      "Experimente uma via de escalada para iniciantes com escola local",
+      "Tome um drink com pé na areia ao pôr do sol"
+    ],
+    "kingTip": "Vá de manhã cedo ou fim de tarde: no meio do dia lota de bate-voltas. A maré baixa deixa Railay East lamacenta — priorize a West.",
+    "whereToEat": "Barracas de curry e frutos do mar frescos na trilha entre East e West; drinks nos beach bars de Railay West.",
+    "lat": 8.0088,
+    "lng": 98.8378,
+    "durationLabel": "meio-dia a dia inteiro",
+    "fit": "CLEAR_SKY",
+    "windSensitive": true,
+    "hours": {
+      "note": "Acesso o dia todo; longtails operam ~8h-18h, dependem da maré e do mar"
+    },
+    "mapQuery": "Railay Beach West, Krabi",
+    "history": "Reduto mundial de escalada esportiva em rocha desde os anos 1990, com centenas de vias nos paredões."
+  },
+  {
+    "id": "ao_nang",
+    "categoryId": "krabi",
+    "name": "Ao Nang",
+    "tagline": "Base animada da praia de Krabi",
+    "description": "O hub turístico de Krabi: orla com restaurantes, bares, lojas e o cais de onde saem quase todos os passeios de barco. Bom lugar para se hospedar por ser prático e movimentado, com boa oferta gay-friendly de bares e restaurantes ao longo da Ao Nang Beach.",
+    "whatToDo": [
+      "Caminhe pela orla ao entardecer",
+      "Reserve os tours de barco no cais de Ao Nang / Nopparat Thara",
+      "Jante frutos do mar na beira da praia",
+      "Faça uma massagem tailandesa em uma das dezenas de spas da rua principal",
+      "Pegue o ferry/longtail para Railay ou as ilhas"
+    ],
+    "kingTip": "Os melhores preços de passeio saem negociando direto nas agências da rua, não no hotel. Compare 2-3 antes de fechar.",
+    "whereToEat": "Soi Sunset e a orla concentram frutos do mar; o mercadinho noturno tem pad thai e frutas baratas.",
+    "lat": 8.0328,
+    "lng": 98.8218,
+    "durationLabel": "base / à noite",
+    "fit": "ANY",
+    "hours": {
+      "note": "Restaurantes e bares até tarde; alta temporada nov-abr"
+    },
+    "mapQuery": "Ao Nang Beach, Krabi"
+  },
+  {
+    "id": "hong_islands",
+    "categoryId": "krabi",
+    "name": "Hong Islands (Koh Hong)",
+    "tagline": "Lagoa esmeralda e mirante 360°",
+    "description": "O passeio-estrela de 28/11. Koh Hong guarda uma lagoa cor de esmeralda cercada de falésias, acessível por uma fenda na rocha, além de uma praia de areia fina. O mirante no alto (uns 419 degraus) abre um panorama 360° das ilhas e do mar de Andaman. Dentro do Parque Nacional Than Bok Khorani.",
+    "whatToDo": [
+      "Reserve o tour de longtail ou speedboat saindo de Ao Nang",
+      "Nade e faça snorkel na lagoa turquesa (calma e rasa)",
+      "Encare a subida ao mirante 360° pela manhã",
+      "Relaxe na praia branca de Koh Hong",
+      "Leve dinheiro para a taxa do parque (~300 THB adulto)"
+    ],
+    "kingTip": "Muita gente acha as Hong mais bonitas e vazias que Phi Phi. Saia cedo para pegar a lagoa antes das multidões e o mar mais liso.",
+    "lat": 8.0743,
+    "lng": 98.6998,
+    "durationLabel": "dia inteiro",
+    "fit": "CLEAR_SKY",
+    "windSensitive": true,
+    "hours": {
+      "note": "Tours saem de manhã (~9h) e voltam à tarde; mar melhor na alta temporada nov-abr"
+    },
+    "mapQuery": "Koh Hong Island, Krabi",
+    "history": "Parte do arquipélago Mu Ko Hong, área marinha protegida do Parque Nacional Than Bok Khorani."
+  },
+  {
+    "id": "seven_islands_sunset",
+    "categoryId": "krabi",
+    "name": "Tour 7 Ilhas ao Pôr do Sol + Plâncton",
+    "tagline": "Sunset no Andaman e mar que brilha",
+    "description": "O programa de 29/11: um longtail visita ilhas como Chicken Island, Tup, Poda e Moh, com snorkel e um pôr do sol espetacular. Depois de escurecer vem a mágica — nadar entre o plâncton bioluminescente, que acende a água num azul surreal. Costuma incluir jantar BBQ na praia.",
+    "whatToDo": [
+      "Reserve o '7 Islands Sunset Tour with Bioluminescent Plankton' (sai ~13h, volta ~20h)",
+      "Faça snorkel nos recifes ao longo da tarde",
+      "Veja o sol se pôr entre as ilhas de calcário",
+      "Entre na água escura à noite para ver o plâncton brilhar",
+      "Aproveite o BBQ na praia incluso na maioria dos tours"
+    ],
+    "kingTip": "O brilho do plâncton depende da lua — noites mais escuras (perto da lua nova) rendem muito mais. Não é garantido, então ajuste a expectativa.",
+    "lat": 7.968,
+    "lng": 98.8145,
+    "durationLabel": "tarde/noite (6-6,5h)",
+    "fit": "CLEAR_SKY",
+    "windSensitive": true,
+    "hours": {
+      "note": "Saída ~13h, retorno ~20h; fenômeno do plâncton varia com a fase da lua"
+    },
+    "mapQuery": "Chicken Island Koh Poda, Krabi",
+    "history": "As 'sete ilhas' ficam em frente a Ao Nang, muitas ligadas por bancos de areia na maré baixa."
+  },
+  {
+    "id": "tiger_cave_temple",
+    "categoryId": "krabi",
+    "name": "Templo da Caverna do Tigre (Wat Tham Suea)",
+    "tagline": "1.237 degraus até o Buda dourado",
+    "description": "Um templo cravado na selva onde uma escadaria íngreme de 1.237 degraus leva a um Buda dourado no topo do morro, com vista panorâmica sobre Krabi e as montanhas. O nome vem de marcas de pata de tigre encontradas na caverna. É puxado, mas a recompensa no alto é inesquecível.",
+    "whatToDo": [
+      "Comece cedo (5h-8h) para evitar o calor da subida",
+      "Leve muita água e vá com tênis",
+      "Suba os 1.237 degraus até o mirante e o Buda dourado",
+      "Explore a área da caverna e o mosteiro na base",
+      "Cuidado com os macacos — não leve comida na mão"
+    ],
+    "kingTip": "Fique atento aos macacos, que roubam garrafas e sacolas. Suba antes das 8h: depois disso o sol bate forte e a escada vira sauna.",
+    "lat": 8.1258,
+    "lng": 98.9242,
+    "durationLabel": "meia manhã (2-3h)",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Aberto diariamente ~5h-18h; suba cedo pelo calor"
+    },
+    "mapQuery": "Wat Tham Suea Tiger Cave Temple, Krabi",
+    "history": "Centro de meditação budista fundado nos anos 1970 nas cavernas de calcário de Krabi."
+  },
+  {
+    "id": "emerald_pool_hot_springs",
+    "categoryId": "krabi",
+    "name": "Poço Esmeralda & Fontes Termais",
+    "tagline": "Piscinas naturais no meio da selva",
+    "description": "No interior de Krabi, o Sa Morakot (Emerald Pool) é uma piscina natural de água azul-esverdeada alimentada por nascentes, cercada de floresta. Por perto ficam o Blue Pool e as fontes termais (Hot Springs), com quedas de água morna que descem como banheiras naturais entre as pedras. Ótimo dia longe do mar.",
+    "whatToDo": [
+      "Reserve como tour combinado (fica ~1h de Ao Nang)",
+      "Mergulhe na água esmeralda da nascente",
+      "Faça a trilha curta até o Blue Pool (quando aberto)",
+      "Relaxe nas quedas termais das Hot Springs",
+      "Leve repelente — é mata fechada"
+    ],
+    "kingTip": "Ótima alternativa para um dia de mar ruim ou vento forte, já que é tudo em terra firme e no interior.",
+    "lat": 7.9247,
+    "lng": 99.2685,
+    "durationLabel": "dia inteiro",
+    "fit": "RAIN_OK",
+    "hours": {
+      "note": "Aberto de dia (~8h30-17h); Blue Pool pode fechar em época seca"
+    },
+    "mapQuery": "Emerald Pool Sa Morakot, Krabi",
+    "history": "Fica na floresta de Khlong Thom, dentro da reserva de vida selvagem de Khao Pra-Bang Khram."
+  },
+  {
+    "id": "krabi_town_night_market",
+    "categoryId": "krabi",
+    "name": "Mercado Noturno de Krabi Town",
+    "tagline": "Comida de rua e vida local",
+    "description": "Longe da bolha turística de Ao Nang, o walking street de Krabi Town ganha vida à noite com barracas de comida, palco com música e artesanato. É onde os moradores comem — pad thai, mango sticky rice, espetinhos e sucos frescos a preços de gente da terra.",
+    "whatToDo": [
+      "Vá com fome e experimente várias barracas",
+      "Prove o mango sticky rice e o roti de banana",
+      "Assista às apresentações no palco central",
+      "Compre lembrancinhas e artesanato local",
+      "Combine com um passeio pela orla do rio Krabi"
+    ],
+    "kingTip": "Acontece principalmente de sexta a domingo à noite. É mais autêntico e barato que os mercados de Ao Nang.",
+    "whereToEat": "O mercado inteiro é uma praça de alimentação: siga as filas de tailandeses para achar as melhores barracas.",
+    "lat": 8.0603,
+    "lng": 98.9186,
+    "durationLabel": "à noite (1-2h)",
+    "fit": "RAIN_OK",
+    "hours": {
+      "note": "Principalmente sex-dom à noite, ~17h-22h"
+    },
+    "mapQuery": "Krabi Town Walking Street Night Market"
+  },
+  {
+    "id": "nopparat_thara_beach",
+    "categoryId": "krabi",
+    "name": "Praia de Nopparat Thara",
+    "tagline": "A praia tranquila ao lado de Ao Nang",
+    "description": "Vizinha de Ao Nang, é uma praia longa e arborizada, bem mais calma e frequentada por locais. Na maré baixa dá para caminhar até pequenas ilhas de areia. Bom lugar para um pôr do sol sem multidão e um fim de tarde relaxado.",
+    "whatToDo": [
+      "Caminhe pela orla ao entardecer",
+      "Aproveite a maré baixa para explorar os bancos de areia",
+      "Faça um piquenique sob os pinheiros da praia",
+      "Use o pier nacional para pegar barcos às ilhas",
+      "Fique para o pôr do sol, dos melhores da região"
+    ],
+    "kingTip": "É o lado 'de respiro' de Ao Nang: mesma faixa de mar, muito menos gente e barulho.",
+    "lat": 8.0406,
+    "lng": 98.8115,
+    "durationLabel": "fim de tarde (1-2h)",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Acesso livre o dia todo; parte é área de parque nacional"
+    },
+    "mapQuery": "Nopparat Thara Beach, Krabi"
+  },
+  {
+    "id": "maya_bay",
+    "categoryId": "ilhas",
+    "name": "Maya Bay",
+    "tagline": "A enseada de 'A Praia', renascida",
+    "description": "A baía mais famosa da Tailândia, imortalizada no filme com Leonardo DiCaprio, fechada por anos para recuperação e reaberta com regras rígidas. Falésias verticais abraçam uma faixa de areia branca e água turquesa. Hoje se chega por trás da ilha (Loh Samah), por uma passarela de madeira na selva.",
+    "whatToDo": [
+      "Confirme a visita no seu tour de Phi Phi (não é permitido nadar na baía)",
+      "Entre pelo pier de Loh Samah e caminhe a passarela até a praia",
+      "Chegue bem cedo, logo na abertura, antes da frota do continente",
+      "Respeite as cordas e trilhas — não pise no coral",
+      "Use protetor solar reef-safe"
+    ],
+    "kingTip": "Proibido nadar dentro da baía (só molhar até os joelhos) e há cota de 380 visitantes por vez, 1h de permanência. Vá no primeiro horário para ver quase vazia.",
+    "lat": 7.6779,
+    "lng": 98.7663,
+    "durationLabel": "~1h (limite oficial)",
+    "fit": "CLEAR_SKY",
+    "windSensitive": true,
+    "hours": {
+      "note": "Aberta ~7h-18h; taxa de parque ~400 THB estrangeiro; FECHA 1/ago a 1/out para recuperação — sua viagem em nov/dez pega aberta e na boa temporada"
+    },
+    "mapQuery": "Maya Bay Phi Phi Leh",
+    "history": "Fechada em 2018 por danos do turismo de massa, reaberta em 2022 com quotas, sem barcos ancorando na baía e sem banho de mar, para proteger o coral em recuperação."
+  },
+  {
+    "id": "phi_phi_viewpoint",
+    "categoryId": "ilhas",
+    "name": "Mirante de Phi Phi (Viewpoint)",
+    "tagline": "A vista dos dois istmos gêmeos",
+    "description": "A subida clássica de Phi Phi Don leva ao mirante de onde se vê a ilha se estreitar entre as duas baías gêmeas — Loh Dalum de um lado e Tonsai do outro. É a foto-símbolo do arquipélago, especialmente linda no fim de tarde.",
+    "whatToDo": [
+      "Suba pela trilha a partir de Tonsai (uns 20-30 min, degraus íngremes)",
+      "Vá de manhã cedo ou perto do pôr do sol pela luz",
+      "Leve água — a subida é suada",
+      "Curta o café no topo (Viewpoint 2)",
+      "Fotografe as baías gêmeas do alto"
+    ],
+    "kingTip": "São três níveis de mirante; o Viewpoint 2 tem o melhor ângulo. No pôr do sol enche, mas a luz dourada vale a pena.",
+    "lat": 7.743,
+    "lng": 98.7783,
+    "durationLabel": "1-2h com subida",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Acesso o dia todo; pequena taxa de manutenção da trilha (~30 THB)"
+    },
+    "mapQuery": "Phi Phi Viewpoint, Ko Phi Phi Don"
+  },
+  {
+    "id": "pileh_lagoon",
+    "categoryId": "ilhas",
+    "name": "Pileh Lagoon",
+    "tagline": "Lagoa esmeralda entre falésias",
+    "description": "Uma enseada fechada por paredões de calcário em Phi Phi Leh, com água tão verde e calma que parece piscina. Um dos pontos mais fotogênicos do tour de Phi Phi, ideal para flutuar e nadar cercado de rocha e selva.",
+    "whatToDo": [
+      "Nade e flutue na água calma e cristalina",
+      "Faça snorkel junto às paredes de rocha",
+      "Peça para o barqueiro parar cedo, antes da lotação",
+      "Aproveite para fotos com a água esmeralda",
+      "Combine com Maya Bay e Viking Cave no mesmo tour"
+    ],
+    "kingTip": "Fica ao lado de Maya Bay — quase todo tour passa nos dois. De manhã cedo a água fica mais lisa e as fotos, melhores.",
+    "lat": 7.6805,
+    "lng": 98.769,
+    "durationLabel": "30-45 min (parada de tour)",
+    "fit": "CLEAR_SKY",
+    "windSensitive": true,
+    "hours": {
+      "note": "Visitada em tours de dia; mar melhor na alta temporada nov-abr"
+    },
+    "mapQuery": "Pileh Lagoon Phi Phi Leh"
+  },
+  {
+    "id": "bamboo_island",
+    "categoryId": "ilhas",
+    "name": "Bamboo Island (Koh Mai Phai)",
+    "tagline": "Areia branca e recife raso",
+    "description": "Uma ilhota ao norte de Phi Phi com uma das areias mais brancas e macias do arquipélago e água azul-clara rasa, ótima para snorkel logo na praia. Menos falésia, mais praia paradisíaca de verdade.",
+    "whatToDo": [
+      "Faça snorkel no recife raso junto à praia",
+      "Ande pela faixa de areia branca dando a volta na ilha",
+      "Leve dinheiro para a taxa do parque nacional",
+      "Relaxe à sombra das árvores da orla",
+      "Combine no tour de dia inteiro de Phi Phi"
+    ],
+    "kingTip": "Costuma ser a última parada dos tours de dia inteiro; a água aqui é rasa e calma, perfeita se vocês curtem snorkel tranquilo.",
+    "lat": 7.7466,
+    "lng": 98.797,
+    "durationLabel": "1-1,5h (parada de tour)",
+    "fit": "CLEAR_SKY",
+    "windSensitive": true,
+    "hours": {
+      "note": "Parte do parque nacional; pode fechar em época de recuperação — confirme no tour"
+    },
+    "mapQuery": "Bamboo Island Koh Mai Phai Phi Phi"
+  },
+  {
+    "id": "loh_dalum_tonsai",
+    "categoryId": "ilhas",
+    "name": "Loh Dalum & Tonsai Bay",
+    "tagline": "O coração de Phi Phi Don",
+    "description": "As duas baías que formam o centro de Phi Phi Don. Tonsai é onde os ferries atracam, com a vila, lojas e restaurantes; Loh Dalum, do outro lado do istmo, é a praia curva de areia branca que vira palco da vida noturna. Dá para atravessar de uma à outra em poucos minutos a pé.",
+    "whatToDo": [
+      "Chegue por Tonsai e explore a vila sem carros a pé",
+      "Passe o dia na curva de areia de Loh Dalum",
+      "Aproveite a maré alta para nadar em Loh Dalum",
+      "Jante nos restaurantes da vila de Tonsai",
+      "Fique para os bares da praia à noite"
+    ],
+    "kingTip": "Phi Phi Don não tem carros — tudo é a pé ou de barco. Na maré baixa Loh Dalum recua bastante; a maré alta é melhor para banho.",
+    "whereToEat": "A vila de Tonsai tem de curry tailandês a pizza; smoothies de fruta e frutos do mar grelhados por todo lado.",
+    "lat": 7.7398,
+    "lng": 98.7686,
+    "durationLabel": "base na ilha",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Vila e restaurantes ativos o dia todo; bares até de madrugada"
+    },
+    "mapQuery": "Loh Dalum Bay Tonsai Phi Phi Don"
+  },
+  {
+    "id": "phi_phi_snorkel_dive",
+    "categoryId": "ilhas",
+    "name": "Snorkel & Mergulho em Phi Phi",
+    "tagline": "Recifes, tubarões-de-recife e visibilidade top",
+    "description": "As águas de Phi Phi são um dos melhores destinos de mergulho da Tailândia. Em pontos como Shark Point e Bida Nok dá para ver tubarões-de-recife de ponta preta (inofensivos), tartarugas e cardumes coloridos. Nov/dez traz água clara e mar calmo, ideal para snorkel e primeiras imersões.",
+    "whatToDo": [
+      "Faça snorkel em Shark Point para ver tubarões-de-recife",
+      "Reserve um try-dive se nunca mergulhou (operadoras na vila)",
+      "Leve câmera à prova d'água",
+      "Escolha a saída da manhã, com melhor visibilidade",
+      "Use protetor reef-safe para não danificar o coral"
+    ],
+    "kingTip": "Os tubarões-de-recife de ponta preta são tímidos e totalmente inofensivos. A visibilidade da alta temporada (nov-abr) é a melhor do ano.",
+    "lat": 7.7407,
+    "lng": 98.7784,
+    "durationLabel": "meio-dia a dia inteiro",
+    "fit": "CLEAR_SKY",
+    "windSensitive": true,
+    "hours": {
+      "note": "Saídas de manhã e tarde; melhor visibilidade na alta temporada nov-abr"
+    },
+    "mapQuery": "Phi Phi diving snorkeling Shark Point"
+  },
+  {
+    "id": "phi_phi_nightlife",
+    "categoryId": "ilhas",
+    "name": "Vida Noturna de Phi Phi (Fire Show)",
+    "tagline": "Fogo, baldes e festa na areia",
+    "description": "À noite Loh Dalum vira uma festa a céu aberto: bares na areia, DJs, os famosos 'buckets' de drink e os shows de malabarismo com fogo (fire show) na beira do mar. É jovem, animada e descontraída — o clássico agito de ilha tailandesa.",
+    "whatToDo": [
+      "Pegue os fire shows na praia de Loh Dalum (começam ~21h)",
+      "Curta os bares de areia como Slinky e Ibiza",
+      "Assista aos malabaristas — mas não tente pular a corda de fogo",
+      "Comece com jantar na vila e emende na praia",
+      "Vá com calçado fechado pela areia"
+    ],
+    "kingTip": "Ambiente descontraído e gay-friendly no geral; o clima é de festa jovem. Beba com moderação — os 'buckets' são fortíssimos.",
+    "lat": 7.7402,
+    "lng": 98.7679,
+    "durationLabel": "à noite",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Bares e fire shows a partir de ~21h até de madrugada"
+    },
+    "mapQuery": "Loh Dalum Beach bars Phi Phi nightlife"
+  },
+  {
+    "id": "phuket_old_town",
+    "categoryId": "phuket",
+    "name": "Phuket Old Town (Cidade Velha)",
+    "tagline": "Fachadas sino-portuguesas coloridas",
+    "description": "O centro histórico de Phuket é um mosaico de casarões sino-portugueses em tons pastel, cafés descolados, galerias e street art. Legado dos mercadores chineses e portugueses da era do estanho, é o lado cultural e fotogênico de Phuket, longe das praias.",
+    "whatToDo": [
+      "Perca-se a pé pelas ruas Thalang, Dibuk e Soi Romanee",
+      "Fotografe as fachadas coloridas e a street art",
+      "Visite cafés e lojinhas de design local",
+      "Vá ao Sunday Walking Street (domingo à noite) se coincidir",
+      "Prove um café ou sobremesa peranakan"
+    ],
+    "kingTip": "Soi Romanee é a ruazinha mais colorida e fotogênica. A cidade velha é bem gay-friendly, com cafés e bares acolhedores.",
+    "whereToEat": "Restaurantes de comida peranakan (nyonya) e cafés charmosos na Thalang Road; hokkien mee e dim sum locais.",
+    "lat": 7.8842,
+    "lng": 98.3878,
+    "durationLabel": "meio-dia (2-3h)",
+    "fit": "ANY",
+    "hours": {
+      "note": "Lojas e cafés de dia; Walking Street aos domingos ~16h-22h"
+    },
+    "mapQuery": "Phuket Old Town Thalang Road",
+    "history": "Erguida no século 19 com a riqueza da mineração de estanho, misturando arquitetura chinesa e portuguesa."
+  },
+  {
+    "id": "big_buddha_phuket",
+    "categoryId": "phuket",
+    "name": "Big Buddha de Phuket",
+    "tagline": "Buda de mármore branco sobre a ilha",
+    "description": "No alto do morro Nakkerd, um Buda de 45 metros revestido de mármore branco de Mianmar domina o horizonte de Phuket. Do mirante ao pé da estátua abre-se uma vista de 360° sobre Chalong, Kata e o mar. Um dos pontos mais serenos e panorâmicos da ilha.",
+    "whatToDo": [
+      "Suba de carro/scooter pela estrada sinuosa até o topo",
+      "Admire a vista 360° de Chalong e Kata",
+      "Vista roupa que cubra ombros e joelhos (é sagrado)",
+      "Toque os sinos e observe as oferendas",
+      "Vá no fim de tarde para luz suave e menos calor"
+    ],
+    "kingTip": "Há sarongues emprestados na entrada se estiver de shorts. Combine com o Wat Chalong, que fica no caminho.",
+    "lat": 7.8277,
+    "lng": 98.3121,
+    "durationLabel": "1-1,5h",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Aberto diariamente ~6h-19h; entrada gratuita"
+    },
+    "mapQuery": "Big Buddha Phuket Nakkerd Hill",
+    "history": "Construído a partir de 2004 com doações; oficialmente 'Ming Mongkol Buddha'."
+  },
+  {
+    "id": "wat_chalong",
+    "categoryId": "phuket",
+    "name": "Wat Chalong",
+    "tagline": "O templo mais importante de Phuket",
+    "description": "O maior e mais reverenciado templo budista de Phuket, com pagodes dourados, murais e um chedi que guarda uma relíquia de Buda. Ambiente vivo de fé local, cheio de detalhes ornamentados — a melhor imersão em cultura budista da ilha.",
+    "whatToDo": [
+      "Suba o chedi de três andares e veja os murais",
+      "Vista roupa respeitosa (ombros e joelhos cobertos)",
+      "Observe os rituais e as oferendas dos fiéis",
+      "Explore o salão principal com as estátuas douradas",
+      "Combine com o Big Buddha, que fica perto"
+    ],
+    "kingTip": "Estale os petardos tradicionais no forninho do pátio — os locais fazem isso para agradecer votos atendidos.",
+    "lat": 7.8461,
+    "lng": 98.3378,
+    "durationLabel": "1h",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Aberto diariamente ~7h-17h; entrada gratuita"
+    },
+    "mapQuery": "Wat Chalong Temple, Phuket",
+    "history": "Ligado a dois monges venerados que ajudaram numa rebelião do século 19; abriga uma relíquia óssea de Buda."
+  },
+  {
+    "id": "kata_karon_beach",
+    "categoryId": "phuket",
+    "name": "Praias de Kata & Karon",
+    "tagline": "Areia dourada e mar de surfe leve",
+    "description": "As duas praias mais queridas da costa oeste de Phuket. Karon é longa, larga e de areia que 'canta' sob os pés; Kata, ao lado, é mais compacta e cercada de bons restaurantes e bares. Água azul e ondas suaves — perfeitas para relaxar e ver o sol se pôr no mar.",
+    "whatToDo": [
+      "Alugue guarda-sol e espreguiçadeira por um dia de praia",
+      "Aproveite as ondas leves (surfe iniciante em Kata)",
+      "Fique para o pôr do sol no mar de Andaman",
+      "Jante nos restaurantes de frutos do mar de Kata",
+      "Passeie até o mirante Kata (Karon Viewpoint) pela estrada"
+    ],
+    "kingTip": "Kata costuma ser mais aconchegante e badalada à noite; Karon é mais espaçosa e tranquila de dia. Nov/dez traz mar calmo e sem águas-vivas.",
+    "whereToEat": "Kata Center concentra frutos do mar e bares; a orla tem opções tailandesas e ocidentais.",
+    "lat": 7.8206,
+    "lng": 98.2975,
+    "durationLabel": "meio-dia a dia inteiro",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Acesso livre; mar mais calmo e seguro na alta temporada nov-abr"
+    },
+    "mapQuery": "Kata Beach, Phuket"
+  },
+  {
+    "id": "promthep_cape",
+    "categoryId": "phuket",
+    "name": "Cabo Promthep",
+    "tagline": "O pôr do sol mais famoso de Phuket",
+    "description": "A ponta sul de Phuket, um promontório sobre o mar que é o point clássico do pôr do sol na ilha. Ao entardecer, dezenas de pessoas se reúnem no mirante para ver o sol mergulhar no Andaman entre as ilhotas. Vistas amplas e um farol no alto.",
+    "whatToDo": [
+      "Chegue 30-40 min antes do pôr do sol para pegar lugar",
+      "Suba até o farol e o pequeno museu",
+      "Fotografe a silhueta das ilhotas contra o sol",
+      "Combine com Promthep e as praias do sul no mesmo dia",
+      "Leve água — venta e é aberto"
+    ],
+    "kingTip": "Estaciona lotado no horário do pôr do sol; chegue cedo. O ponto mais alto, perto do farol, tem o melhor ângulo e menos gente.",
+    "lat": 7.7625,
+    "lng": 98.3048,
+    "durationLabel": "fim de tarde (1h)",
+    "fit": "CLEAR_SKY",
+    "windSensitive": true,
+    "hours": {
+      "note": "Melhor no pôr do sol (~18h em nov/dez); acesso livre"
+    },
+    "mapQuery": "Promthep Cape, Phuket"
+  },
+  {
+    "id": "bangla_road_patong",
+    "categoryId": "phuket",
+    "name": "Bangla Road & Patong",
+    "tagline": "A vida noturna elétrica de Phuket",
+    "description": "Bangla Road, em Patong, é o epicentro da noite de Phuket: uma via fechada para pedestres tomada de bares, música alta, luzes de neon e shows. Intenso e caótico, é o clássico agito da ilha. Patong tem também uma cena LGBTQ+ vibrante, concentrada na Paradise Complex / Soi Paradise, com bares gay e cabarés.",
+    "whatToDo": [
+      "Caminhe pela Bangla Road à noite e sinta o clima",
+      "Explore a cena gay da Paradise Complex (Soi Paradise)",
+      "Assista a um show de cabaré",
+      "Curta os rooftops e bares de música ao vivo",
+      "Fique atento aos pertences na multidão"
+    ],
+    "kingTip": "A Paradise Complex, ao lado da Bangla, é o coração LGBTQ+ de Patong — bares acolhedores e shows drag. Ignore quem oferece 'ping pong shows' na rua: são armadilhas de conta inflada.",
+    "whereToEat": "Barracas de rua e restaurantes na Bangla; frutos do mar na orla de Patong.",
+    "lat": 7.8926,
+    "lng": 98.2966,
+    "durationLabel": "à noite",
+    "fit": "ANY",
+    "hours": {
+      "note": "Bares abrem ~18h e vão até de madrugada; Bangla vira calçadão à noite"
+    },
+    "mapQuery": "Bangla Road Patong, Phuket"
+  },
+  {
+    "id": "simon_cabaret",
+    "categoryId": "phuket",
+    "name": "Simon Cabaret",
+    "tagline": "O cabaré drag icônico de Phuket",
+    "description": "O mais famoso show de cabaré de Phuket, com elenco de artistas trans ('ladyboys') em números musicais de figurinos deslumbrantes, dança e humor. Espetáculo profissional, colorido e divertido — um clássico gay-friendly da ilha, em teatro climatizado perto de Patong.",
+    "whatToDo": [
+      "Reserve ingressos com antecedência (sessões à noite)",
+      "Escolha assentos centrais para a melhor vista",
+      "Chegue 20 min antes para acomodar",
+      "Aproveite os figurinos e a produção de palco",
+      "Tire fotos com o elenco ao final (gorjeta de praxe)"
+    ],
+    "kingTip": "Há normalmente 2-3 sessões por noite. É um dos programas noturnos mais divertidos e acolhedores de Phuket para casais LGBTQ+.",
+    "lat": 7.8905,
+    "lng": 98.2985,
+    "durationLabel": "à noite (~1h15 de show)",
+    "fit": "INDOOR",
+    "hours": {
+      "note": "Sessões noturnas (geralmente ~18h, 19h30 e 21h); confirme na bilheteria"
+    },
+    "mapQuery": "Simon Cabaret Show, Patong Phuket"
+  },
+  {
+    "id": "james_bond_island",
+    "categoryId": "phuket",
+    "name": "Ilha James Bond (Khao Phing Kan)",
+    "tagline": "Rochedo do filme 007 em Phang Nga",
+    "description": "Bate-volta clássico saindo de Phuket: a baía de Phang Nga é um labirinto de torres de calcário saindo do mar esmeralda. A estrela é Ko Tapu, o pináculo de rocha que apareceu em '007 Contra o Homem da Pistola de Ouro'. Passeios costumam incluir caiaque por grutas e manguezais.",
+    "whatToDo": [
+      "Reserve tour de dia saindo de Phuket (~1h de van + barco)",
+      "Faça caiaque pelas grutas e lagunas escondidas",
+      "Veja o pináculo Ko Tapu da praia de Khao Phing Kan",
+      "Visite a vila muçulmana flutuante de Koh Panyee",
+      "Leve protetor e chapéu — sol forte na baía"
+    ],
+    "kingTip": "A ilha em si fica lotada; o melhor do passeio é o caiaque pelas grutas de Phang Nga. Prefira operadoras que saem cedo.",
+    "lat": 8.2745,
+    "lng": 98.5006,
+    "durationLabel": "dia inteiro (bate-volta)",
+    "fit": "CLEAR_SKY",
+    "windSensitive": true,
+    "hours": {
+      "note": "Tours de dia inteiro; parte do Parque Nacional Ao Phang Nga, taxa incluída no tour"
+    },
+    "mapQuery": "James Bond Island Khao Phing Kan Phang Nga",
+    "history": "Ficou mundialmente famosa após o filme de James Bond de 1974; hoje é área protegida de parque nacional."
+  },
+  {
+    "id": "beachfront_spa_ao_nang",
+    "categoryId": "bemestar",
+    "name": "Massagem à beira-mar em Ao Nang",
+    "tagline": "Massagem tailandesa com som do mar",
+    "description": "Ao Nang é cheia de spas e casas de massagem, várias com cabanas à beira da praia. Depois de um dia de barco ou dos 1.237 degraus do templo, nada como uma massagem tailandesa ou de óleo com a brisa do mar — barato, relaxante e por toda parte.",
+    "whatToDo": [
+      "Reserve uma Thai massage ou massagem de óleo (~300-500 THB/h)",
+      "Prefira as cabanas com vista para a praia ao entardecer",
+      "Experimente a foot massage após um dia de caminhada",
+      "Combine com um scrub ou aromaterapia num spa maior",
+      "Deixe gorjeta se o atendimento agradar"
+    ],
+    "kingTip": "Compare 2-3 casas na rua da praia: os preços e a qualidade variam bastante. As da beira-mar cobram um pouco mais, mas o ambiente compensa.",
+    "lat": 8.0305,
+    "lng": 98.8215,
+    "durationLabel": "1-2h",
+    "fit": "INDOOR",
+    "hours": {
+      "note": "Spas abrem de manhã até ~22h; sem necessidade de reserva na maioria"
+    },
+    "mapQuery": "beachfront massage spa Ao Nang Krabi"
+  },
+  {
+    "id": "beachfront_spa_kata_phuket",
+    "categoryId": "bemestar",
+    "name": "Spa à beira-mar em Kata/Karon",
+    "tagline": "Bem-estar tailandês na costa oeste",
+    "description": "A região de Kata e Karon, em Phuket, concentra spas de qualidade — de casas de massagem simples a spas de resort com tratamentos completos. Fecha o roteiro com chave de ouro: massagem tailandesa, óleos aromáticos e escalda-pés depois das praias e trilhas.",
+    "whatToDo": [
+      "Reserve um pacote de spa (massagem + scrub) num spa de Kata",
+      "Peça uma Thai massage tradicional para desfazer os nós da viagem",
+      "Experimente a aromaterapia com óleos locais",
+      "Agende no fim de tarde, após a praia",
+      "Reserve nos spas de resort para uma experiência mais premium"
+    ],
+    "kingTip": "Os spas de Kata/Karon são um degrau acima dos de rua em conforto. Vale reservar antes nos mais concorridos, sobretudo na alta temporada.",
+    "lat": 7.82,
+    "lng": 98.298,
+    "durationLabel": "1-2h",
+    "fit": "INDOOR",
+    "hours": {
+      "note": "Spas abrem de manhã até a noite; reserva recomendada nos maiores"
+    },
+    "mapQuery": "beach spa massage Kata Karon Phuket"
+  },
+  {
+    "id": "phra_nang_sunset",
+    "categoryId": "noite",
+    "name": "Pôr do Sol em Phra Nang / Railay",
+    "tagline": "O entardecer mais bonito de Krabi",
+    "description": "Entre as falésias de Railay, a praia de Phra Nang é considerada uma das mais lindas da Tailândia — areia branca, água turquesa e a caverna Princess com suas oferendas. Ao entardecer, a luz dourada bate nos paredões e nos longtails: um dos pôres do sol mais memoráveis da região.",
+    "whatToDo": [
+      "Chegue no fim de tarde a pé desde Railay East/West",
+      "Assista ao sol se pôr entre as falésias e os barcos",
+      "Visite a curiosa caverna Princess (Phra Nang)",
+      "Tome um drink no famoso 'bar do barco' na areia",
+      "Volte de longtail para Ao Nang com o céu ainda claro"
+    ],
+    "kingTip": "Confirme o último longtail de volta a Ao Nang para não ficar preso após escurecer. O barzinho montado num barco na praia é o point do pôr do sol.",
+    "lat": 8.0038,
+    "lng": 98.8404,
+    "durationLabel": "fim de tarde",
+    "fit": "CLEAR_SKY",
+    "windSensitive": true,
+    "hours": {
+      "note": "Melhor no pôr do sol (~18h em nov/dez); dependa da maré e do horário dos longtails"
+    },
+    "mapQuery": "Phra Nang Beach Railay, Krabi"
+  },
+  {
+    "id": "catch_beach_club_phuket",
+    "categoryId": "noite",
+    "name": "Beach Club em Phuket (Catch / Bang Tao)",
+    "tagline": "Pé na areia, DJ e drinks ao pôr do sol",
+    "description": "A costa de Bang Tao/Cherngtalay concentra os beach clubs mais estilosos de Phuket, como o Catch Beach Club. Espreguiçadeiras na areia, piscina, DJ, drinks e jantar com o sol se pondo no mar — a versão sofisticada e descolada da noite, bem diferente do caos de Patong.",
+    "whatToDo": [
+      "Reserve um daybed ou mesa para o pôr do sol (consumo mínimo)",
+      "Curta o DJ set e os coquetéis com pé na areia",
+      "Fique para o jantar à beira-mar",
+      "Combine tarde de praia + noite no mesmo lugar",
+      "Vista-se um pouco mais arrumado (smart casual)"
+    ],
+    "kingTip": "Ambiente descontraído e gay-friendly. Reserve com antecedência no fim de semana e chegue antes do pôr do sol para pegar o melhor lugar.",
+    "whereToEat": "O próprio beach club serve jantar; a região de Bang Tao tem também bons restaurantes à beira-mar.",
+    "lat": 7.9945,
+    "lng": 98.2935,
+    "durationLabel": "tarde/noite",
+    "fit": "CLEAR_SKY",
+    "hours": {
+      "note": "Geralmente ~11h até a noite; reserva recomendada, sobretudo no pôr do sol"
+    },
+    "mapQuery": "Catch Beach Club Bang Tao, Phuket"
+  },
+  {
+    "id": "pad-thai",
+    "categoryId": "comida",
+    "name": "Pad Thai",
+    "tagline": "o macarrão de arroz salteado símbolo da Tailândia",
+    "description": "Talharim de arroz salteado no wok com ovo, tofu ou camarão, broto de feijão, amendoim e um molho agridoce de tamarindo. Sabor equilibrado entre doce, azedo e salgado. Os melhores saem de barraquinhas de rua e mercados noturnos; em Bangkok o Thip Samai é lendário.",
+    "kingTip": "Esprema o limão que vem do lado e polvilhe o amendoim e a pimenta seca por cima na hora. Peça 'jay' (เจ) para versão vegetariana sem camarão nem ovo.",
+    "fit": "ANY",
+    "durationLabel": "prato",
+    "lat": 13.7362,
+    "lng": 100.5331,
+    "mapQuery": "Pad Thai Thailand",
+    "isDish": true
+  },
+  {
+    "id": "som-tam",
+    "categoryId": "comida",
+    "name": "Som Tam (salada de mamão verde)",
+    "tagline": "salada picante de mamão verde socada no pilão",
+    "description": "Tiras de mamão verde socadas no pilão com tomate, vagem, amendoim, limão, alho e muita pimenta. Crocante, azeda e ardida - a cara do Nordeste (Isaan). Encontra em qualquer barraca; combina com frango grelhado e arroz glutinoso.",
+    "kingTip": "É um dos pratos mais picantes da Tailândia. Peça 'mai phet' (sem pimenta) ou 'phet nit noi' (pouca pimenta). A versão com caranguejo fermentado (som tam poo pla ra) é forte demais para iniciantes.",
+    "fit": "ANY",
+    "durationLabel": "prato",
+    "lat": 13.7378,
+    "lng": 100.5379,
+    "mapQuery": "Som Tam (salada de mamão verde) Thailand",
+    "isDish": true
+  },
+  {
+    "id": "tom-yum-goong",
+    "categoryId": "comida",
+    "name": "Tom Yum Goong",
+    "tagline": "a sopa azeda e picante de camarão",
+    "description": "Sopa aromática de camarão com capim-limão, folha de limão kaffir, galanga, cogumelos e pimenta. Explode de sabor: azeda, picante e perfumada. A versão 'nam khon' leva leite de coco e fica mais cremosa; a 'nam sai' é clara e mais leve.",
+    "kingTip": "As folhas de capim-limão e galanga são só para aromatizar - não precisa comer. Peça menos pimenta se for sensível; ela vem generosa por padrão.",
+    "fit": "ANY",
+    "durationLabel": "prato",
+    "lat": 13.7394,
+    "lng": 100.5299,
+    "mapQuery": "Tom Yum Goong Thailand",
+    "isDish": true
+  },
+  {
+    "id": "green-curry",
+    "categoryId": "comida",
+    "name": "Green Curry (Gaeng Keow Wan)",
+    "tagline": "curry verde cremoso de leite de coco",
+    "description": "Curry verde à base de pasta de pimenta fresca, leite de coco, manjericão tailandês e frango, carne ou legumes. Cremoso, aromático e picante. Servido com arroz branco. O verde engana: costuma ser mais ardido que o vermelho.",
+    "kingTip": "Fácil de achar em versão vegetariana com tofu (peça 'jay'). Se quiser algo mais suave, prefira o curry vermelho ou o amarelo.",
+    "fit": "ANY",
+    "durationLabel": "prato",
+    "lat": 13.741,
+    "lng": 100.5363,
+    "mapQuery": "Green Curry (Gaeng Keow Wan) Thailand",
+    "isDish": true
+  },
+  {
+    "id": "massaman-curry",
+    "categoryId": "comida",
+    "name": "Massaman Curry",
+    "tagline": "curry suave de influência muçulmana, quase sem pimenta",
+    "description": "Curry doce e encorpado com batata, amendoim, canela, cardamomo e carne cozida por horas até desmanchar. Herança muçulmana do sul, é o menos picante de todos - perfeito para quem não aguenta ardência. Frequentemente eleito um dos melhores pratos do mundo.",
+    "kingTip": "A pedida ideal para o primeiro contato com curry tailandês: rico e reconfortante sem queimar a boca.",
+    "fit": "ANY",
+    "durationLabel": "prato",
+    "lat": 13.7426,
+    "lng": 100.5315,
+    "mapQuery": "Massaman Curry Thailand",
+    "isDish": true
+  },
+  {
+    "id": "khao-soi",
+    "categoryId": "comida",
+    "name": "Khao Soi",
+    "tagline": "o curry-macarrão do norte, tesouro de Chiang Mai",
+    "description": "Prato-assinatura do norte: macarrão de ovo em caldo cremoso de curry com leite de coco, coberto por macarrão frito crocante, cebola roxa, picles e limão. Só se come de verdade em Chiang Mai e Chiang Rai. Sirva o frango ou a carne no caldo.",
+    "kingTip": "Imperdível no norte - não deixe de comer em Chiang Mai. Misture o macarrão crocante no caldo antes de começar e esprema o limão.",
+    "fit": "ANY",
+    "durationLabel": "prato",
+    "lat": 13.7442,
+    "lng": 100.5395,
+    "mapQuery": "Khao Soi Thailand",
+    "isDish": true
+  },
+  {
+    "id": "mango-sticky-rice",
+    "categoryId": "comida",
+    "name": "Mango Sticky Rice (Khao Niaw Mamuang)",
+    "tagline": "a sobremesa nacional de manga com arroz doce",
+    "description": "Arroz glutinoso banhado em leite de coco adocicado, servido com fatias de manga madura e um fio de creme de coco por cima. Doce na medida, cremoso e refrescante. Melhor entre março e junho (auge da manga), mas encontra o ano todo em mercados.",
+    "kingTip": "A melhor manga é a 'nam dok mai', bem amarela e doce. Barraca de rua costuma ser mais fresca e barata que restaurante.",
+    "fit": "ANY",
+    "durationLabel": "prato",
+    "lat": 13.7458,
+    "lng": 100.5331,
+    "mapQuery": "Mango Sticky Rice (Khao Niaw Mamuang) Thailand",
+    "isDish": true
+  },
+  {
+    "id": "boat-noodles",
+    "categoryId": "comida",
+    "name": "Boat Noodles (Kuay Teow Reua)",
+    "tagline": "macarrão intenso servido em tigelinhas pequenas",
+    "description": "Sopa de macarrão de caldo escuro e profundo, tradicionalmente vendida de barcos nos canais. Servida em tigelinhas pequenas - o esporte local é empilhar quantas você conseguir comer. Em Bangkok, o Victory Monument tem uma rua inteira dedicada a elas.",
+    "kingTip": "Cada tigelinha é bem pequena e barata (~15-20 THB); é normal comer 5 a 10. O caldo original leva sangue de porco - peça sem se preferir.",
+    "fit": "ANY",
+    "durationLabel": "prato",
+    "lat": 13.7474,
+    "lng": 100.5379,
+    "mapQuery": "Boat Noodles (Kuay Teow Reua) Thailand",
+    "isDish": true
+  },
+  {
+    "id": "moo-ping-khao-niaw",
+    "categoryId": "comida",
+    "name": "Moo Ping + Khao Niaw",
+    "tagline": "espetinho de porco marinado com arroz glutinoso",
+    "description": "Espetinhos de porco marinados no leite de coco e molho de soja, grelhados na brasa até caramelizar, acompanhados de um saquinho de arroz glutinoso. O café da manhã e lanche de rua mais amado da Tailândia. Barato, doce-salgado e viciante.",
+    "kingTip": "Café da manhã perfeito de rua: 10-15 THB o espetinho. Procure a barraca com mais fila de tailandeses - sinal de que está fresco.",
+    "fit": "ANY",
+    "durationLabel": "prato",
+    "lat": 13.749,
+    "lng": 100.5299,
+    "mapQuery": "Moo Ping + Khao Niaw Thailand",
+    "isDish": true
+  },
+  {
+    "id": "sai-ua",
+    "categoryId": "comida",
+    "name": "Sai Ua (linguiça do norte)",
+    "tagline": "linguiça de porco perfumada com ervas do norte",
+    "description": "Linguiça grelhada típica de Chiang Mai, recheada de capim-limão, folha de limão kaffir, galanga e pasta de curry. Aromática, herbal e levemente picante. Vendida em rodelas nos mercados; combina com arroz glutinoso e pasta de pimenta nam prik.",
+    "kingTip": "Especialidade do norte - prove nos mercados de Chiang Mai e Chiang Rai. Ótima para dividir como petisco.",
+    "fit": "ANY",
+    "durationLabel": "prato",
+    "lat": 13.7506,
+    "lng": 100.5363,
+    "mapQuery": "Sai Ua (linguiça do norte) Thailand",
+    "isDish": true
+  },
+  {
+    "id": "roti-street",
+    "categoryId": "comida",
+    "name": "Roti (panqueca de rua)",
+    "tagline": "panqueca frita crocante com banana e leite condensado",
+    "description": "Massa fina esticada e frita na chapa com manteiga, dobrada com banana e regada com leite condensado e açúcar - também tem versão com Nutella ou ovo. Crocante por fora, macia por dentro. Doce de rua clássico dos mercados noturnos, herança muçulmana.",
+    "kingTip": "Peça a versão banana + leite condensado como sobremesa depois do jantar no night market. Sai por 30-50 THB.",
+    "fit": "ANY",
+    "durationLabel": "prato",
+    "lat": 13.7522,
+    "lng": 100.5315,
+    "mapQuery": "Roti (panqueca de rua) Thailand",
+    "isDish": true
+  },
+  {
+    "id": "fruit-shakes",
+    "categoryId": "comida",
+    "name": "Sucos e shakes de fruta",
+    "tagline": "vitaminas geladas de fruta fresca por poucos baht",
+    "description": "Barracas espremem manga, melancia, maracujá, abacaxi e coco na hora, batidos com gelo. Refrescante e barato (30-60 THB), ideal para o calor. O coco verde gelado (nam maprao) direto na casca é a hidratação perfeita nas praias.",
+    "kingTip": "Peça 'mai sai nam tan' (sem açúcar) - muitas barracas adicionam bastante xarope. Prefira frutas descascadas na hora à sua frente por higiene.",
+    "fit": "ANY",
+    "durationLabel": "prato",
+    "lat": 13.7538,
+    "lng": 100.5395,
+    "mapQuery": "Sucos e shakes de fruta Thailand",
+    "isDish": true
+  },
+  {
+    "id": "chang-singha-beer",
+    "categoryId": "comida",
+    "name": "Cerveja Chang e Singha",
+    "tagline": "as cervejas tailandesas para gelar no calor",
+    "description": "Chang e Singha são as marcas nacionais (Leo é a mais barata e popular entre locais). Lager leves, servidas bem geladas, às vezes com gelo no copo - prática normal na Tailândia. Perfeitas com comida picante. Álcool não é vendido em lojas das 14h às 17h.",
+    "kingTip": "Diga 'bia Chang, yen yen' (cerveja Chang bem gelada). Cerveja só é vendida em mercados/lojas das 11h às 14h e das 17h à meia-noite - fora disso, só em bares e restaurantes.",
+    "fit": "ANY",
+    "durationLabel": "prato",
+    "lat": 13.7554,
+    "lng": 100.5331,
+    "mapQuery": "Cerveja Chang e Singha Thailand",
+    "isDish": true
+  }
+];
+
+// Nenhum link oficial por-nome nesta versão (as fontes vão em usefulInfo/links por card).
+export const linksByName: Record<string, LinkRef[]> = {};
