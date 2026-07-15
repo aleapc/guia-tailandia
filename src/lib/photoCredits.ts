@@ -1,3 +1,34 @@
-// Sem fotos empacotadas nesta versão — os cards usam gradientes temáticos.
-// (Quando adicionar fotos em static/photos/, registre as atribuições aqui.)
-export const photoCredits: Record<string, string> = {};
+// Auto-gerado — atribuicoes (Wikimedia Commons).
+export const photoCredits: Record<string, string> = {
+  'bangkok.jpg': "Trip.with.taste — CC BY-SA 4.0 (Wikimedia Commons)",
+  'ayutthaya.jpg': "Dieglop (Diego Lopez Sebastian) — CC BY-SA 4.0 (Wikimedia Commons)",
+  'comida.jpg': "Edgardo W. Olivera — CC BY 2.0 (Wikimedia Commons)",
+  'mercados.jpg': "PA — CC BY-SA 4.0 (Wikimedia Commons)",
+  'chiangmai.jpg': "CEphoto, Uwe Aranas — CC BY-SA 4.0 (Wikimedia Commons)",
+  'lanternas.jpg': "Carlos Adampol Galindo (Cidade do México) — CC BY-SA 2.0 (Wikimedia Commons)",
+  'chiangrai.jpg': "CEphoto, Uwe Aranas — CC BY-SA 4.0 (Wikimedia Commons)",
+  'natureza.jpg': "Evo Flash — CC BY 2.0 (Wikimedia Commons)",
+  'krabi.jpg': "kallerna — CC BY-SA 3.0 (Wikimedia Commons)",
+  'ilhas.jpg': "Diego Delso — CC BY-SA 3.0 (Wikimedia Commons)",
+  'phuket.jpg': "Phuket@photographer.net (linvoyage) — CC BY 2.0 (Wikimedia Commons)",
+  'bemestar.jpg': "kallerna — CC BY-SA 3.0 (Wikimedia Commons)",
+  'grande_palacio_wat_phra_kaew.jpg': "Nawit science — CC BY-SA 4.0 (Wikimedia Commons)",
+  'wat_pho.jpg': "Nawit science — CC BY-SA 4.0 (Wikimedia Commons)",
+  'wat_arun.jpg': "Trip.with.taste — CC BY-SA 4.0 (Wikimedia Commons)",
+  'chatuchak_weekend_market.jpg': "JJ Harrison — CC BY-SA 3.0 (Wikimedia Commons)",
+  'ayutthaya_wat_chaiwatthanaram.jpg': "Justin Vidamo — CC BY 2.0 (Wikimedia Commons)",
+  'cm_wat_chedi_luang.jpg': "Vyacheslav Argenberg — CC BY 4.0 (Wikimedia Commons)",
+  'lanternas_nawarat_ping.jpg': "John Shedrick — CC BY 2.0 (Wikimedia Commons)",
+  'cr_wat_rong_suea_ten.jpg': "Chainwit. — CC BY-SA 4.0 (Wikimedia Commons)",
+  'natureza_elephant_nature_park.jpg': "Nina R (Nina R from Africa) — CC BY 2.0 (Wikimedia Commons)",
+  'natureza_doi_inthanon.jpg': "JJ Harrison — CC BY-SA 3.0 (Wikimedia Commons)",
+  'maya_bay.jpg': "Diego Delso (delso.photo) — CC BY-SA 3.0 (Wikimedia Commons)",
+  'phi_phi_viewpoint.jpg': "Christophe95 — CC BY-SA 4.0 (Wikimedia Commons)",
+  'big_buddha_phuket.jpg': "Subhrajyoti07 — CC BY-SA 4.0 (Wikimedia Commons)",
+  'phuket_old_town.jpg': "Christophe95 — CC BY-SA 4.0 (Wikimedia Commons)",
+  'promthep_cape.jpg': "Phuket@photographer.net (Sergei / Phuketian.S) — CC BY 2.0 (Wikimedia Commons)",
+  'noite.jpg': "Slyronit — CC BY-SA 4.0 (Wikimedia Commons)",
+  'hong_islands.jpg': "Wolfgang Holzem — CC BY-SA 4.0 (Wikimedia Commons)",
+};
+
+
